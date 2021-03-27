@@ -1,128 +1,428 @@
-![Android Matryoshka Dolls](undefined)
-
-I think Kotlin delegates are underused; they are the best implementation of the “favor composition over inheritance” refrain.
-
-![A class that is also a list by virtue of it having a reference to one](undefined)
-
-In the above, the 
-ListContainer is a 
-List that can be iterated through by delegating to the backing 
-List within itself. 
-Delegates are so much more than that however; fundamentally a 
-Delegate allows for a property to have its read and/or write semantics implemented by an arbitrary bit of code. One of the most underutilized, and therefore the least learned from in my opinion, is the 
-map() 
-Delegate.
-
-![A class whose properties delegate to and therefore mutate the backing map passed to it](undefined)
-
-In the above, read/writes to the 
-User instance are delegated to the backing 
-map; changes in the fields are reflected in the 
-map immediately. Although a neat example, most Android apps don’t have data blobs marshaled in 
-maps, they have it in 
-[Bundles](https://developer.android.com/reference/android/os/Bundle). A more useful 
-Delegate Android wise therefore would be:
-
-![A Delegate for reading/writing from and to an Android Bundle](undefined)
-
-This would let you write the following expressions to let you read/write from a 
-Bundle without having to declare extra string constants all over the place, the key is simply the property name:
-
 ![](undefined)
 
-The above is nice, but not very flexible as it’s an extension on the 
-Bundle type itself. The more interesting usages of 
-Bundles in Android tend to be via proxy; 
-[Intent](https://developer.android.com/reference/android/content/Intent) extras, 
-[Activity](https://developer.android.com/reference/android/app/Activity) deep link params and 
-[Fragment](https://developer.android.com/guide/fragments) arguments all internally delegate to a 
-Bundle instance. What would be really nice is if we could write a 
-Delegate that itself delegated to something else that provides a type we already know how to delegate to; or ***delegation by inception*** as I like to call it:
+Introduction
 
-![A Delegate whose implementation delegates to another Delegate via a mapper transform](undefined)
+This is the part-2 of a series of posts explaining multi-threading using coroutines. If you didn’t check the first part, here is the [link](https://medium.com/@hakim.fakher/kotlin-coroutines-basics-5ac9d362a1d5). I recommend you to read it before you continue reading this part, it present some of fundamental concept of coroutines. In this part, we will talk about 
+async, 
+withContext and exception handling.
 
-With the above, we can compose 
-Delegates to arbitrarily read and write to any type, provided the type has a reference to another type that has a ready to use 
-Delegate. So for 
-Intents, 
-Activities and 
-Fragments we can write:
+Async
 
-![Delegates for various Android types that use Bundles to marshal data](undefined)
+So what is an 
+async in coroutines and wh
 
-With this 
-Bundles become so much more convenient to work with:
+y they are so useful ? Remember the 
+launch that we talked about in the last part ? In fact 
+async is just like launch it starts a coroutine except that it return a result. The only difference between async and a normal function is that async start a coroutine that run in a different thread with parallel with the main thread so the result returned by async is deferred in time until the coroutine finish the work and return the result. That’s why the async return what we call a 
+Deferred. So once we need the result of that coroutine, we call the method 
+await() to get the value. In fact this method is a blocking method, that’s mean if the value is ready it will return it immediately otherwise it will block the thread until it become available and at that time it returns the value.
 
-![Examples of Android Delegates that all rely on a Bundle](undefined)
+Let’s see in practice how we use an 
+async . So we will write a small program that has two 
+suspend functions returning each an Integer after some work (for simplicity of the example we will just add a delay), than we will print the sum of these two numbers! easy isn’t it ? :D
 
-With this, a full User edit flow using the new [FragmentResult API](https://proandroiddev.com/android-fragments-fragment-result-805a6b2522ea) may look something like this:
+~~~
 
-![Example integration flow of Bundle delegates](undefined)
+fun main() {
+    *runBlocking ***{
+        **val firstDeferred = *async ***{ **getFirstNumber() **}
+        **val secondDeferred = *async ***{ **getSecondNumber() **}
 
-In the above, the edited user has their name set to “Blake”, wile keeping the existing user’s last name and age. Also in 
-UserEditFragment, the user data will survive process death since it is stored in the arguments bundle; all this with no 
-bundle.getParcelable(“propertyKey”), or 
-fragment.arguments.getParcelable(“userKey”) in sight.
+        ***println*("Doing some processing!")
+        delay(500)
+        *println*("Waiting for values")
 
-![We need to go deeper](undefined)
+        val firstValue = firstDeferred.await()
+        val secondValue = secondDeferred.await()
 
-Why stop there though? I wrote recently on how 
-ViewBinding [makes it really easy to express ](https://proandroiddev.com/android-views-as-a-function-of-state-with-viewbinding-case-study-1-the-live-game-stream-c8367ac13ace)
-[Views](https://proandroiddev.com/android-views-as-a-function-of-state-with-viewbinding-case-study-1-the-live-game-stream-c8367ac13ace)[ as a function of their State](https://proandroiddev.com/android-views-as-a-function-of-state-with-viewbinding-case-study-1-the-live-game-stream-c8367ac13ace). In situations like that, it often is very helpful if the 
-View could remember the last bit of state it was bound to; typically to memoize animations. Now all Android 
-View instances let you save arbitrary bits of data in them via their 
-setTag and 
-getTag methods with unique integer resource ids. If this is making you start thinking of a 
-map like 
-Delegate for a 
-View that took full advantage of this, you’re in luck:
+        *println*("the sum is ${firstValue + secondValue}")
+    **}
+**}
 
-![A delegate for a View to store arbitrary types via its tags](undefined)
+suspend fun getFirstNumber(): Int {
+    delay(1000)
+    val value = Random.nextInt(100)
+    *println*("returning first value: $value")
+    return value
+}
 
-Much like with 
-Bundles above, if we have any class that has a reference to a 
-View, we can write delegates for it that internally delegate to it:
+suspend fun getSecondNumber(): Int {
+    delay(2000)
+    val value = Random.nextInt(100)
+    *println*("returning second value: $value")
+    return value
+}
+~~~
 
-![Delegates for a View, ViewBinding and even a RecyclerView ViewHolder](undefined)
 
-Again, just like before with 
-Intents, 
-Activities and 
-Fragments; any 
-ViewBinding or 
-RecyclerView.ViewHolder instance can have any arbitrary property. This is especially useful for:
+So here we have these two function that will do some work than each return an Integer. In the main program, we launch these two function in an 
+async in order to get the result. After launching these two asyncs, let’s say we have a small processing of 500 millis in our program and then, we want to get the values from the two functions in order to print there sum! In order to get the value immediately, we must call the method 
+await to force the async to get the value! Actually, it will pause the current thread, execute the work until the value is ready and then return it. Try to run this code and see the output and the delays between each print.
 
-1. 
-- 
-RecyclerView.ViewHolder instances, because it means you don’t ever need to subclass it again; just add 
-private 
-var properties that delegate to the type you want. This is the whole foundation for declarative 
-RecyclerViews covered [here](https://proandroiddev.com/declarative-lists-on-android-with-recyclerview-viewbinding-4c1c7ead0e67).
-- 
-ViewBinding or 
-View instances needing a custom animator. In the below, a 
-TextView has a custom 
-ObjectAnimator tightly coupled with it without needing to subclass it.
+~~~
 
-![Using a private delegate to strongly couple an ObjectAnimator with a TextView](undefined)
+main Doing some processing!
+Waiting for values
+main returning first value: 72
+main returning second value: 76
+the sum is 148
+~~~
 
-The possibilities are quite endless. JSON deserialization is one of the most common things an app has to do and libraries often use reflection at runtime to help with it. With the right 
-Delegate however, you could declare fields in a class and read the value from a common JSON type without the need for reflection.
 
-In summary, Kotlin delegates are one of the best features of the language, and seem to be woefully underused. In your codebase there’s probably some utility function that does a transform that a 
-Delegate is better suited for. Why not add replacing it with a custom 
-Delegate to your New Year’s resolutions?
+So that’s it for the 
+async !
 
-All the aforementioned 
-Delegates are bundled (pun intended) in the following dependency, and more reading about how Kotlin 
-Delegates under the hood can be found [here](https://medium.com/androiddevelopers/delegating-delegates-to-kotlin-ee0a0b21c52b).
+> 
 
-[
+Remember, use 
+launch when you don’t have a value to return from that coroutine, use 
+async in case you expect a value !
 
-tunjid/Android-Extensions
+withContext
 
-# Install 1/2: Add this to pom.xml: Learn more about Maven or Gradle com.tunjid.androidx core 1.3.0-alpha01 Install 2/2…
+It’s no more than a function! 
+withContext is a function that allows us to switch between 
+Dispatchers inside a coroutine.
 
-github.com
+Let’s say we have an Android application that will apply a filter on an Image before showing it. Of course applying a filter is an intensif work we can’t apply it in the UiThread. So we must launch a coroutine with 
+Dispatchers.Default (Use Default Dispatchers for CPU processing works) and then once the image is ready, we show it in the UI. Now to show the image in the UI thread, we must switch from the background thread that applied the filter on the image to the UI thread that will show the filtered image. In order to do that, we just call the function 
+withContext(Dispatchers.Main(){//Show the image} and that code will be executed in the main dispatcher given to the method 
+withContext() which is the UiThread in Android.
 
-](https://github.com/tunjid/Android-Extensions/packages/190263)
+Let’s go through an example, we will just print the 
+coroutineContext in each scope and see what’s the dispatcher the code is running on.
+
+~~~
+
+fun main() {
+    *runBlocking ***{
+        ***launch *(Dispatchers.Default)**{
+            ***println*("First context is $coroutineContext")
+
+            withContext(Dispatchers.IO)**{
+                ***println*("Second context is $coroutineContext")
+            **}
+            ***println*("Third context is $coroutineContext")
+        **}
+    }
+**}
+~~~
+
+
+When we run this code we get this output:
+
+~~~
+
+First context is [StandaloneCoroutine{Active}[@d018aa4](http://twitter.com/d018aa4), DefaultDispatcher]
+Second context is [DispatchedCoroutine{Active}[@71b2215](http://twitter.com/71b2215), LimitingDispatcher@2c910d33[dispatcher = DefaultDispatcher]]
+Third context is [StandaloneCoroutine{Active}[@d018aa4](http://twitter.com/d018aa4), DefaultDispatcher]
+~~~
+
+
+For the first and the third message, it’s the same context, the same Dispatcher (in my case it’s @d018aa4) but for the second message which is printed inside a withContext method, the context here is changed (and the dispatcher obviously).
+
+The withContext is very useful method especially when working on Android application and you need to update the UI in the main thread.
+
+Exception handling
+
+In this section we will talk about exception handling in coroutine. In fact it depends weither we started the coroutine by 
+launch or 
+async method. The 
+launch method return a 
+Job , the 
+async return a 
+Deferred .
+
+
+launch :
+
+- Propagate through the parent-child hierarchy.
+- The exception will be thrown immediately and jobs will fail.
+- Use try/catch or an exception handling.
+
+
+async :
+
+- Exceptions are deferred until the value is consumed (by calling the 
+await() function).
+- If the result is not consumed, the exception is never thrown.
+- Use try-catch in the coroutine or in the 
+await call.
+
+Now let’s try to handle exceptions in both cases.
+
+we will start by 
+launch , the example is quiet simple, we are going to launch a coroutine and throw an Exception, then we will join this job to the main context (If we don’t join the job, we will not get the exception).
+
+~~~
+
+fun main() {
+    *runBlocking ***{
+        **val job = GlobalScope.*launch ***{
+            ***println*("Throwing an exception from job")
+            throw IllegalStateException("This is an illegal State Exception!")
+        **}
+        **job.join()
+    **}
+**}
+~~~
+
+
+Once we run this code we will get a beautiful IllegalStateException!
+
+So the question is how we are going to handle this exception?
+
+Coroutines offers an exception handler that we can create and pass it as parameter to the 
+launch method.
+
+First, let’s create the exception handler:
+
+~~~
+
+val *myHandler *= *CoroutineExceptionHandler ***{ **coroutineContext, throwable **\->
+    ***println*("handling error: ${throwable.message}")
+**}**
+~~~
+
+
+that’s it! now we can add this handler to our job so we can handle the exception.
+
+~~~
+
+fun main() {
+    *runBlocking ***{
+        **val job = GlobalScope.*launch*(*myHandler*) **{ ***//We pass the //handler to the launch function
+            println*("Throwing an exception from job")
+            throw IllegalStateException("This is an illegal State Exception!")
+        **}
+        **job.join()
+    **}
+**}
+~~~
+
+
+now try to run this code and you will see that the exception is handled and the program doesn’t crash any more.
+
+Now, what if we want launch the coroutine in a different dispatcher and with an exception handler that we defined ?
+
+it’s quiet easy, we have just to add it as parameter in the launch method this way:
+
+~~~
+
+val job = GlobalScope.*launch*(Dispatchers.IO + *myHandler*){//Code}
+~~~
+
+
+So now we have a coroutine launched in IO Dispatcher with an exception handler that we defined.
+
+Now let’s talk about 
+async function. let’s launch an 
+async and call the 
+await method and see how we can catch the exception.
+
+~~~
+
+fun main() {
+    *runBlocking ***{
+        **val deferred = GlobalScope.*async ***{
+            ***println*("Throwing an exception from deferred")
+            throw IllegalStateException("This is an illegal State Exception!")
+        **}
+        **deferred.await()
+    **}
+**}
+~~~
+
+
+Now if you run this code you will get an IllegalStateException. To catch the exception, we can use the classic try-catch bloc. We have two options, we can catch the exception once we call the 
+await function or inside the 
+async function itself. the code will be:
+
+~~~
+
+fun main() {
+    *runBlocking ***{
+        **val deferred = GlobalScope.*async ***{
+            ***println*("Throwing an exception from deferred")
+            throw IllegalStateException("This is an illegal State Exception!")
+        **}
+        **try {
+            deferred.await()
+        } catch (e: java.lang.IllegalStateException) {
+            *println*("Exception caught: ${e.message}")
+        }
+    **}
+**}
+~~~
+
+
+And now the exception is caught!
+
+Sample
+
+To summarize all the knowledge we gained, let’s implement a small Android application. This application will be very simple, we are going to download an image, apply a filter, and then show it in the UI. It’s a small application but it’s enough to use all concepts that we talked about in these two posts.
+
+I assume that you have a knowledge about Android development so I am not going just to explain the coroutines bloc of code.
+
+To start, add the coroutines-core dependencies in your app/build.gradle file
+
+~~~
+
+implementation **'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5'
+**implementation **'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2'**
+~~~
+
+
+After adding the dependencies, go to your 
+activity_main file and place this code:
+
+~~~
+
+*<?***xml version="1.0" encoding="utf-8"***?>
+*<**androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"**>
+
+    <**ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" **/>
+
+    <**ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" **/>
+</**androidx.constraintlayout.widget.ConstraintLayout**>
+~~~
+
+
+The UI will be as simple as possible. We just have an ImageView to show the filtered image and a ProgressBar to show while waiting fetching and processing the image.
+
+Now in your 
+MainActivity we are going to download the image, apply a filter and show the filtered image. All this stuff will be done by coroutines!
+
+I will first put the code than we will discuss it.
+
+~~~
+
+**class **MainActivity : AppCompatActivity() {
+
+    **private val IMAGE_URL **= **"https://i.ibb.co/Ky9r7jk/440px-Lenna-test-image.png"
+    private val coroutineScope **= *CoroutineScope*(Dispatchers.**Main**)
+
+    **override fun **onCreate(savedInstanceState: Bundle?) {
+        **super**.onCreate(savedInstanceState)
+        setContentView(R.layout.*activity_main*)
+
+        **coroutineScope**.*launch ***{
+            ***//We are in the UI thread!
+            ***val **originalDeferredImage = **coroutineScope**.*async*(Dispatchers.**IO**) **{
+                ***//We are in IO thread!
+                *getOriginalImage(**IMAGE_URL**)
+            **}
+
+            ***//We are in UI thread!
+            ***val **originalBitmap = originalDeferredImage.await()
+
+            **val **filteredImageDeferred = **coroutineScope**.*async*(Dispatchers.**Default**) **{
+                ***//We are in Default thread!
+                *Filter.apply(originalBitmap)
+            **}
+
+            ***//We are in UI thread!
+            ***val **filteredImage = filteredImageDeferred.await()
+            loadImage(filteredImage)
+        **}
+    **}
+
+    **private fun **getOriginalImage(imageURL: String): Bitmap {
+        URL(imageURL).openStream().*use ***{
+            return **BitmapFactory.decodeStream(**it**)
+        **}
+    **}
+
+    **private fun **loadImage(bitmap: Bitmap) {
+        progressBar.*visibility *= View.*GONE
+        *imageView.setImageBitmap(bitmap)
+        imageView.*visibility *= View.*VISIBLE
+    *}
+
+}
+~~~
+
+
+Let’s start with the two function in the bottom of the class. the 
+getOriginalImage will download an image from an url and return a Bitmap. the 
+loadImage will hide the progressBar, make the ImageView visible and show the bitmap.
+
+Now as you can see in the top of the class we declared a 
+coroutineScope that will be running in 
+Main Dispatcher which is UiTread in Android.
+
+We launch this coroutine with 
+launch function (we are not waiting a return value from this coroutine). Inside this coroutine, we create a 
+Deferred that will download the image. Now, downloading an image is a read/write operation. For that kind of work, we do it in the 
+Dispatchers.IO and that’s why in the 
+async function we switched the dispatcher to the IO dispatcher so all the bloc inside the 
+async(Dispatcher.IO){//block} will be executed in an IO dispatcher.
+
+So now we need the downloaded image to apply the filter, but it’s running in different thread so we must wait for it until it’s downloaded. here comes the utility of 
+await function, it will suspend the current thread until we get the value needed. So when here:
+
+~~~
+
+**val **originalBitmap = originalDeferredImage.await()
+~~~
+
+
+The main thread will be suspended until the 
+deferred that will return the downloaded image return this image.
+
+After we get the image, we now can apply the filter. Applying a filter is an intensive CPU work. For that kind of work, we must choose the 
+Default dispatcher! That’s why in our code we declared a 
+deferred(because we are waiting a result from the coroutine) that will be run in 
+Dispatchers.Default
+
+~~~
+
+**val **filteredImageDeferred = **coroutineScope**.*async*(Dispatchers.**Default**) **{
+***    *Filter.apply(originalBitmap)
+**}**
+~~~
+
+
+calling 
+await on this 
+deferred will also suspend the current thread until we get the result, in our case the filtered image and now we can set the ImageView with the filtered image! Remember that we are in a coroutine that’s running on the 
+Main dispatcher, so we don’t need to switch the context!
+
+> 
+
+In android, there is another Dispatcher in ViewModels to do your work. All you need to do is 
+viewModelScope.launch{//your beautiful code}
+
+Conclusion
+
+By reading these two parts of coroutines-basics and implementing this sample, you are now must be able to develop a whole application using Coroutines :D
+
+> 
+
+For some Frameworks that support coroutines like 
+Room or 
+Retrofit they return suspend functions, use these function in the main thread is safe so you don’t need to define a Dispatcher before calling these functions because they are 
+main-safe.

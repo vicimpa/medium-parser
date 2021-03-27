@@ -89,7 +89,7 @@ export default MediumParser
 
 
 if(process.argv.indexOf('--test') != -1) {
-  MediumParser.parseFromURL('https://proandroiddev.com/kotlin-delegation-by-inception-61f8beaae0db')
+  MediumParser.parseFromURL('https://medium.com/@hakim.fakher/kotlin-coroutines-basics-part-2-4087ce15ff28')
     .then(e => {
       writeFileSync('./example/test2.md', e.markdown)
     })
