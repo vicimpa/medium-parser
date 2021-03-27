@@ -1,3 +1,7 @@
+*Parsed from* [URL](https://proandroiddev.com/creating-appbars-in-jetpack-compose-a8b5a5639930)
+
+----
+
 ### Creating AppBars in Jetpack Compose
 
 ![Photo by [Michael Pfister ](https://unsplash.com/@pfista?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) OUTSET_CENTER](https://miro.medium.com/1*rCOaUFY2wEhaHfaKjOSFgA.jpeg)

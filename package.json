@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "node ./dist/index.js --test"
   },
   "keywords": [
     "medium",
