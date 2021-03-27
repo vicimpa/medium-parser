@@ -32,7 +32,7 @@ MediumParser.parseFromUrl(urlAsString)
   })
 ```
 
-and
+or
 
 ```js
 import { MediumParser } from 'medium-parser';
