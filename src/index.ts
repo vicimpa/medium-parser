@@ -211,7 +211,7 @@ const tryGetMedia = async (id: string) => {
   return ''
 }
 
-export class MediumNewParser {
+export class MediumParser {
   static async parseFromURL(url: string): Promise<MediumData> {
     const request = await axios.get(url)
 
@@ -296,7 +296,7 @@ export class MediumNewParser {
   }
 }
 
-
+export default MediumParser
 
 if (process.argv.indexOf('--test') != -1) {
   const urls = [
@@ -315,7 +315,7 @@ if (process.argv.indexOf('--test') != -1) {
 
       console.log('Running ' + (i + 1))
 
-      const d = await MediumNewParser.parseFromURL(urls[i])
+      const d = await MediumParser.parseFromURL(urls[i])
         .catch(console.error)
 
       if (!d) continue

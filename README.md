@@ -9,25 +9,12 @@ A simple parser for Medium (html) into Markdown.
 then
 
 ```js
-const {MediumParser} = require('medium-parser');
-
-const post1 = MediumParser.parseFromHTML(htmlAsString)
-/*
-  post1 == {
-    poster: 'https://...',
-    title: 'Post title',
-    headline: 'Headline from h2 tag',
-    author: 'Some author',
-    authorAvatar: 'https://...',
-    publishedTime: '2016-09-19T21:30:45.266Z' as Date,
-    markdown: '# Markdown\nAs string...',
-  }
-*/
+const { MediumParser } = require('medium-parser');
 
 MediumParser.parseFromUrl(urlAsString)
-  .then(post2 => {
+  .then(post => {
     /*
-      post2 == {
+      post == {
         poster: 'https://...',
         title: 'Post title',
         headline: 'Headline from h2 tag',
@@ -50,23 +37,10 @@ and
 ```js
 import { MediumParser } from 'medium-parser';
 
-const post1 = MediumParser.parseFromHTML(htmlAsString)
-/*
-  post1 == {
-    poster: 'https://...',
-    title: 'Post title',
-    headline: 'Headline from h2 tag',
-    author: 'Some author',
-    authorAvatar: 'https://...',
-    publishedTime: '2016-09-19T21:30:45.266Z' as Date,
-    markdown: '# Markdown\nAs string...',
-  }
-*/
-
 MediumParser.parseFromUrl(urlAsString)
-  .then(post2 => {
+  .then(post => {
     /*
-      post2 == {
+      post == {
         poster: 'https://...',
         title: 'Post title',
         headline: 'Headline from h2 tag',
