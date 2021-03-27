@@ -1,5 +1,7 @@
 *Parsed from* [URL](https://medium.com/android-frontier/kelm-kotlin-ui-architecture-ea91fb745478)
 
+ You can see [JSON](./test7.json) output
+
 ----
 
 ![Photograph by Bernard Miranda Lessa OUTSET_CENTER](https://miro.medium.com/1*_GgGa0h4458WDgqNA7Ar-w.jpeg)

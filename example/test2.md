@@ -1,5 +1,7 @@
 *Parsed from* [URL](https://proandroiddev.com/kotlin-delegation-by-inception-61f8beaae0db)
 
+ You can see [JSON](./test2.json) output
+
 ----
 
 ### Kotlin Delegation by Inception

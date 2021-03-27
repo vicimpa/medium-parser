@@ -323,7 +323,7 @@ if (process.argv.indexOf('--test') != -1) {
       const { markdown, ...data } = d
       const file = `test${i + 1}`
       writeFileSync(`./example/${file}.json`, JSON.stringify(data, null, 2))
-      writeFileSync(`./example/${file}.md`, `*Parsed from* [URL](${urls[i]})\n\n----\n\n${markdown}`)
+      writeFileSync(`./example/${file}.md`, `*Parsed from* [URL](${urls[i]})\n\n You can see [JSON](./${file}.json) output\n\n----\n\n${markdown}`)
     }
   }
 
