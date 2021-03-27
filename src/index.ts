@@ -89,9 +89,9 @@ export default MediumParser
 
 
 if(process.argv.indexOf('--test') != -1) {
-  MediumParser.parseFromURL('https://medium.com/@hakim.fakher/kotlin-coroutines-basics-part-2-4087ce15ff28')
+  MediumParser.parseFromURL('https://medium.com/android-frontier/kelm-kotlin-ui-architecture-ea91fb745478')
     .then(e => {
-      writeFileSync('./example/test2.md', e.markdown)
+      writeFileSync('./example/test3.md', e.markdown)
     })
     .catch(console.error)
 }
