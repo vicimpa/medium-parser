@@ -1,6 +1,7 @@
 src
 mocks
 lib/tests
+node_modules
 
 .*
 !.npmignore
