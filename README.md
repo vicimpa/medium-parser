@@ -71,4 +71,4 @@ MediumParser.parseFromUrl(urlAsString)
 
 ## License
 
-MIT [http://gunar.mit-license.org]()
+[MIT License](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt)
