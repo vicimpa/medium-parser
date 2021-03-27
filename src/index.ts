@@ -1,5 +1,6 @@
 import axios from "axios";
 import { load } from "cheerio";
+import { writeFile, writeFileSync } from "fs";
 import { URL } from "url";
 import { processElement } from "./processElement";
 
@@ -91,3 +92,12 @@ export class MediumParser {
 }
 
 export default MediumParser
+
+
+if(process.argv.indexOf('--test') != -1) {
+  MediumParser.parseFromURL('https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0')
+  .then(e => {
+    writeFileSync('./example/test1.md', e.markdown)
+  })
+  .catch(console.error)
+}
