@@ -1,7 +1,6 @@
 import axios from "axios";
 import { load } from "cheerio";
-import { writeFile, writeFileSync } from "fs";
-import { URL } from "url";
+import { writeFileSync } from "fs";
 import { processElement } from "./processElement";
 
 export interface MediumData {
@@ -16,11 +15,6 @@ export interface MediumData {
 
 export class MediumParser {
   static async parseFromURL(url: string): Promise<MediumData> {
-    const pUrl = new URL(url)
-
-    if (pUrl.hostname != 'medium.com')
-      throw new Error('You trying parse not medium.com')
-
     const request = await axios.get(url)
 
     if(request.status != 200)
@@ -95,9 +89,9 @@ export default MediumParser
 
 
 if(process.argv.indexOf('--test') != -1) {
-  MediumParser.parseFromURL('https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0')
-  .then(e => {
-    writeFileSync('./example/test1.md', e.markdown)
-  })
-  .catch(console.error)
+  MediumParser.parseFromURL('https://proandroiddev.com/kotlin-delegation-by-inception-61f8beaae0db')
+    .then(e => {
+      writeFileSync('./example/test2.md', e.markdown)
+    })
+    .catch(console.error)
 }
