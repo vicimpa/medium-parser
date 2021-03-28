@@ -28,11 +28,11 @@ Probably. Kelm was heavily inspired by the Elm Architecture. Kelm also follows t
 
 ![ OUTSET_LEFT](https://miro.medium.com/1*3BViNj2pD-M1Mkt_wLqUzA@2x.jpeg)
 
-The **Model **in the diagram is the state of the app. The **Update **is where most of an app’s logic is. It’s a pure function that takes the previous **Model **and a **Message **as input and returns a new **Model.**
+The **Model** in the diagram is the state of the app. The **Update** is where most of an app’s logic is. It’s a pure function that takes the previous **Model** and a **Message** as input and returns a new **Model.**
 
 The red part represents the pure part of the system. It has no side-effects and is completely synchronous, so it’s pretty awesome that this is where most of our code is.
 
-The green part is where the side-effects and async tasks are. The **Update **can return **Commands,** that in turn are mapped to RxJava’s Maybe. These Maybe then return **Messages **that will then be passed to the **Update.** And the cycle is complete.
+The green part is where the side-effects and async tasks are. The **Update** can return **Commands,** that in turn are mapped to RxJava’s Maybe. These Maybe then return **Messages** that will then be passed to the **Update.** And the cycle is complete.
 
 ### Show me some code!
 
@@ -66,7 +66,7 @@ In this sample we have the **Model b**eing a simple counter with derivative prop
 
 ### Where’s the async stuff? What about side-effects?
 
-Kelm doesn’t allow any async calls nor side effects in its **Update **function. For that Kelm uses the concept of **Commands.** **Commands **are simple tasks that run and return a **Message **in the future. To use **Commands y**ou implement a Kelm **Element.**
+Kelm doesn’t allow any async calls nor side effects in its **Update** function. For that Kelm uses the concept of **Commands.** **Commands** are simple tasks that run and return a **Message** in the future. To use **Commands y**ou implement a Kelm **Element.**
 
 This next sample showcases a full implementation of an app that requests random pictures of foxes from a REST API. When the request fails the user is prompted to retry.
 
@@ -121,9 +121,9 @@ object FoxServiceElement : Kelm.Element<Model, Msg, Cmd, Nothing>() {
 }
 ```
 
-Note how **Messages **are used for both user inputs and responses from the service.
+Note how **Messages** are used for both user inputs and responses from the service.
 
-A **Command **is then mapped to an RxJava’s Maybe:
+A **Command** is then mapped to an RxJava’s Maybe:
 
 ```kt
 fun cmdToMaybe(cmd: Cmd): Maybe<Msg> =
@@ -157,4 +157,4 @@ Well, check for yourself: [https://github.com/AllanHasegawa/kelm/blob/master/sam
 
 ### Oh wow, I love it!
 
-Wait until you see Kelm with *Jetpack Compose *;)
+Wait until you see Kelm with *Jetpack Compose* ;)

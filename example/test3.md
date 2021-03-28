@@ -12,13 +12,13 @@ Async, withContext, exception handling
 
 ### Introduction
 
-This is the part-2 of a series of posts explaining multi-threading using coroutines. If you didn’t check the first part, here is the [link.](https://medium.com/@hakim.fakher/kotlin-coroutines-basics-5ac9d362a1d5) I recommend you to read it before you continue reading this part, it present some of fundamental concept of coroutines. In this part, we will talk about `async,` `withContext `and exception handling.
+This is the part-2 of a series of posts explaining multi-threading using coroutines. If you didn’t check the first part, here is the [link.](https://medium.com/@hakim.fakher/kotlin-coroutines-basics-5ac9d362a1d5) I recommend you to read it before you continue reading this part, it present some of fundamental concept of coroutines. In this part, we will talk about `async,` `withContext` and exception handling.
 
 ### Async
 
-So what is an `async `in coroutines and why they are so useful ? Remember the `launch `that we talked about in the last part ? In fact `async `is just like launch it starts a coroutine except that it return a result. The only difference between async and a normal function is that async start a coroutine that run in a different thread with parallel with the main thread so the result returned by async is deferred in time until the coroutine finish the work and return the result. That’s why the async return what we call a `Deferred. `So once we need the result of that coroutine, we call the method `await() `to get the value. In fact this method is a blocking method, that’s mean if the value is ready it will return it immediately otherwise it will block the thread until it become available and at that time it returns the value.
+So what is an `async` in coroutines and why they are so useful ? Remember the `launch` that we talked about in the last part ? In fact `async` is just like launch it starts a coroutine except that it return a result. The only difference between async and a normal function is that async start a coroutine that run in a different thread with parallel with the main thread so the result returned by async is deferred in time until the coroutine finish the work and return the result. That’s why the async return what we call a `Deferred.` So once we need the result of that coroutine, we call the method `await()` to get the value. In fact this method is a blocking method, that’s mean if the value is ready it will return it immediately otherwise it will block the thread until it become available and at that time it returns the value.
 
-Let’s see in practice how we use an `async `. So we will write a small program that has two `suspend `functions returning each an Integer after some work (for simplicity of the example we will just add a delay), than we will print the sum of these two numbers! easy isn’t it ? :D
+Let’s see in practice how we use an `async` . So we will write a small program that has two `suspend` functions returning each an Integer after some work (for simplicity of the example we will just add a delay), than we will print the sum of these two numbers! easy isn’t it ? :D
 
 ```
 fun main() {
@@ -52,7 +52,7 @@ suspend fun getSecondNumber(): Int {
 }
 ```
 
-So here we have these two function that will do some work than each return an Integer. In the main program, we launch these two function in an `async `in order to get the result. After launching these two asyncs, let’s say we have a small processing of 500 millis in our program and then, we want to get the values from the two functions in order to print there sum! In order to get the value immediately, we must call the method `await `to force the async to get the value! Actually, it will pause the current thread, execute the work until the value is ready and then return it. Try to run this code and see the output and the delays between each print.
+So here we have these two function that will do some work than each return an Integer. In the main program, we launch these two function in an `async` in order to get the result. After launching these two asyncs, let’s say we have a small processing of 500 millis in our program and then, we want to get the values from the two functions in order to print there sum! In order to get the value immediately, we must call the method `await` to force the async to get the value! Actually, it will pause the current thread, execute the work until the value is ready and then return it. Try to run this code and see the output and the delays between each print.
 
 ```
 main Doing some processing!
@@ -62,17 +62,17 @@ main returning second value: 76
 the sum is 148
 ```
 
-So that’s it for the `async `!
+So that’s it for the `async` !
 
-> Remember, use `launch `when you don’t have a value to return from that coroutine, use `async `in case you expect a value !
+> Remember, use `launch` when you don’t have a value to return from that coroutine, use `async` in case you expect a value !
 
 ### withContext
 
-It’s no more than a function! `withContext `is a function that allows us to switch between `Dispatchers `inside a coroutine.
+It’s no more than a function! `withContext` is a function that allows us to switch between `Dispatchers` inside a coroutine.
 
-Let’s say we have an Android application that will apply a filter on an Image before showing it. Of course applying a filter is an intensif work we can’t apply it in the UiThread. So we must launch a coroutine with `Dispatchers.Default `(Use Default Dispatchers for CPU processing works) and then once the image is ready, we show it in the UI. Now to show the image in the UI thread, we must switch from the background thread that applied the filter on the image to the UI thread that will show the filtered image. In order to do that, we just call the function `withContext(Dispatchers.Main(){//Show the image} `and that code will be executed in the main dispatcher given to the method `withContext() `which is the UiThread in Android.
+Let’s say we have an Android application that will apply a filter on an Image before showing it. Of course applying a filter is an intensif work we can’t apply it in the UiThread. So we must launch a coroutine with `Dispatchers.Default` (Use Default Dispatchers for CPU processing works) and then once the image is ready, we show it in the UI. Now to show the image in the UI thread, we must switch from the background thread that applied the filter on the image to the UI thread that will show the filtered image. In order to do that, we just call the function `withContext(Dispatchers.Main(){//Show the image}` and that code will be executed in the main dispatcher given to the method `withContext()` which is the UiThread in Android.
 
-Let’s go through an example, we will just print the `coroutineContext `in each scope and see what’s the dispatcher the code is running on.
+Let’s go through an example, we will just print the `coroutineContext` in each scope and see what’s the dispatcher the code is running on.
 
 ```
 fun main() {
@@ -109,9 +109,9 @@ The withContext is very useful method especially when working on Android applica
 
 ### Exception handling
 
-In this section we will talk about exception handling in coroutine. In fact it depends weither we started the coroutine by `launch `or `async `method. The `launch `method return a `Job `, the `async `return a `Deferred `.
+In this section we will talk about exception handling in coroutine. In fact it depends weither we started the coroutine by `launch` or `async` method. The `launch` method return a `Job` , the `async` return a `Deferred` .
 
-`launch `:
+`launch` :
 
 - Propagate through the parent-child hierarchy.
 
@@ -119,17 +119,17 @@ In this section we will talk about exception handling in coroutine. In fact it d
 
 - Use try/catch or an exception handling.
 
-`async `:
+`async` :
 
-- Exceptions are deferred until the value is consumed (by calling the `await() `function).
+- Exceptions are deferred until the value is consumed (by calling the `await()` function).
 
 - If the result is not consumed, the exception is never thrown.
 
-- Use try-catch in the coroutine or in the `await `call.
+- Use try-catch in the coroutine or in the `await` call.
 
 Now let’s try to handle exceptions in both cases.
 
-we will start by `launch `, the example is quiet simple, we are going to launch a coroutine and throw an Exception, then we will join this job to the main context (If we don’t join the job, we will not get the exception).
+we will start by `launch` , the example is quiet simple, we are going to launch a coroutine and throw an Exception, then we will join this job to the main context (If we don’t join the job, we will not get the exception).
 
 ```
 fun main() {
@@ -147,7 +147,7 @@ Once we run this code we will get a beautiful IllegalStateException!
 
 So the question is how we are going to handle this exception?
 
-Coroutines offers an exception handler that we can create and pass it as parameter to the `launch `method.
+Coroutines offers an exception handler that we can create and pass it as parameter to the `launch` method.
 
 First, let’s create the exception handler:
 
@@ -183,7 +183,7 @@ val job = GlobalScope.launch(Dispatchers.IO + myHandler){//Code}
 
 So now we have a coroutine launched in IO Dispatcher with an exception handler that we defined.
 
-Now let’s talk about `async `function. let’s launch an `async `and call the `await `method and see how we can catch the exception.
+Now let’s talk about `async` function. let’s launch an `async` and call the `await` method and see how we can catch the exception.
 
 ```
 fun main() {
@@ -197,7 +197,7 @@ fun main() {
 }
 ```
 
-Now if you run this code you will get an IllegalStateException. To catch the exception, we can use the classic try-catch bloc. We have two options, we can catch the exception once we call the `await `function or inside the `async `function itself. the code will be:
+Now if you run this code you will get an IllegalStateException. To catch the exception, we can use the classic try-catch bloc. We have two options, we can catch the exception once we call the `await` function or inside the `async` function itself. the code will be:
 
 ```
 fun main() {
@@ -230,7 +230,7 @@ implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5'
 implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2'
 ```
 
-After adding the dependencies, go to your `activity_main `file and place this code:
+After adding the dependencies, go to your `activity_main` file and place this code:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -267,7 +267,7 @@ After adding the dependencies, go to your `activity_main `file and place this co
 
 The UI will be as simple as possible. We just have an ImageView to show the filtered image and a ProgressBar to show while waiting fetching and processing the image.
 
-Now in your `MainActivity `we are going to download the image, apply a filter and show the filtered image. All this stuff will be done by coroutines!
+Now in your `MainActivity` we are going to download the image, apply a filter and show the filtered image. All this stuff will be done by coroutines!
 
 I will first put the code than we will discuss it.
 
@@ -317,21 +317,21 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-Let’s start with the two function in the bottom of the class. the `getOriginalImage `will download an image from an url and return a Bitmap. the `loadImage `will hide the progressBar, make the ImageView visible and show the bitmap.
+Let’s start with the two function in the bottom of the class. the `getOriginalImage` will download an image from an url and return a Bitmap. the `loadImage` will hide the progressBar, make the ImageView visible and show the bitmap.
 
-Now as you can see in the top of the class we declared a `coroutineScope `that will be running in `Main `Dispatcher which is UiTread in Android.
+Now as you can see in the top of the class we declared a `coroutineScope` that will be running in `Main` Dispatcher which is UiTread in Android.
 
-We launch this coroutine with `launch `function (we are not waiting a return value from this coroutine). Inside this coroutine, we create a `Deferred `that will download the image. Now, downloading an image is a read/write operation. For that kind of work, we do it in the `Dispatchers.IO `and that’s why in the `async `function we switched the dispatcher to the IO dispatcher so all the bloc inside the `async(Dispatcher.IO){//block} `will be executed in an IO dispatcher.
+We launch this coroutine with `launch` function (we are not waiting a return value from this coroutine). Inside this coroutine, we create a `Deferred` that will download the image. Now, downloading an image is a read/write operation. For that kind of work, we do it in the `Dispatchers.IO` and that’s why in the `async` function we switched the dispatcher to the IO dispatcher so all the bloc inside the `async(Dispatcher.IO){//block}` will be executed in an IO dispatcher.
 
-So now we need the downloaded image to apply the filter, but it’s running in different thread so we must wait for it until it’s downloaded. here comes the utility of `await `function, it will suspend the current thread until we get the value needed. So when here:
+So now we need the downloaded image to apply the filter, but it’s running in different thread so we must wait for it until it’s downloaded. here comes the utility of `await` function, it will suspend the current thread until we get the value needed. So when here:
 
 ```
 val originalBitmap = originalDeferredImage.await()
 ```
 
-The main thread will be suspended until the `deferred `that will return the downloaded image return this image.
+The main thread will be suspended until the `deferred` that will return the downloaded image return this image.
 
-After we get the image, we now can apply the filter. Applying a filter is an intensive CPU work. For that kind of work, we must choose the `Default `dispatcher! That’s why in our code we declared a `deferred(`because we are waiting a result from the coroutine) that will be run in `Dispatchers.Default`
+After we get the image, we now can apply the filter. Applying a filter is an intensive CPU work. For that kind of work, we must choose the `Default` dispatcher! That’s why in our code we declared a `deferred(`because we are waiting a result from the coroutine) that will be run in `Dispatchers.Default`
 
 ```
 val filteredImageDeferred = coroutineScope.async(Dispatchers.Default) {
@@ -339,7 +339,7 @@ val filteredImageDeferred = coroutineScope.async(Dispatchers.Default) {
 }
 ```
 
-calling `await `on this `deferred `will also suspend the current thread until we get the result, in our case the filtered image and now we can set the ImageView with the filtered image! Remember that we are in a coroutine that’s running on the `Main `dispatcher, so we don’t need to switch the context!
+calling `await` on this `deferred` will also suspend the current thread until we get the result, in our case the filtered image and now we can set the ImageView with the filtered image! Remember that we are in a coroutine that’s running on the `Main` dispatcher, so we don’t need to switch the context!
 
 > In android, there is another Dispatcher in ViewModels to do your work. All you need to do is `viewModelScope.launch{//your beautiful code}`
 
@@ -347,4 +347,4 @@ calling `await `on this `deferred `will also suspend the current thread until we
 
 By reading these two parts of coroutines-basics and implementing this sample, you are now must be able to develop a whole application using Coroutines :D
 
-> For some Frameworks that support coroutines like `Room `or `Retrofit `they return suspend functions, use these function in the main thread is safe so you don’t need to define a Dispatcher before calling these functions because they are `main-safe.`
+> For some Frameworks that support coroutines like `Room` or `Retrofit` they return suspend functions, use these function in the main thread is safe so you don’t need to define a Dispatcher before calling these functions because they are `main-safe.`

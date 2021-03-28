@@ -8,19 +8,19 @@
 
 ![ OUTSET_CENTER](https://miro.medium.com/1*F2pe6U6CoaEYf181yts1lA.jpeg)
 
-Some time ago we learned how to do a search on Android with SearchView. Not only pure UI component which consumes your typos, but more: makes your Activity ***[SEARCHABLE ](https://developer.android.com/guide/topics/search/searchable-config)— e***.g. providing search suggestions, voice search, etc:
+Some time ago we learned how to do a search on Android with SearchView. Not only pure UI component which consumes your typos, but more: makes your Activity ***[SEARCHABLE](https://developer.android.com/guide/topics/search/searchable-config) — e***.g. providing search suggestions, voice search, etc:
 
 [![](https://img.youtube.com/vi/9OWmnYPX1uc/0.jpg)](https://www.youtube.com/watch?v=9OWmnYPX1uc&t=210))
 
 I am not sure you are familiar with searchables, but there’s a lot of ceremonies to do so — we need to touch several XMLs:
 
-- AndroidManifest(add **android.intent.action.SEARCH* **i*ntent-filter* t*o your target Activity*).*
+- AndroidManifest(add **android.intent.action.SEARCH*** i*ntent-filter* t*o your target Activity*).*
 
-- Create custom *searchable *under res/xml
+- Create custom *searchable* under res/xml
 
 - edit some res/layout — put some additional properties to SearchView 😀
 
-Apart from that, you still need to dodge some Android gotchas — like **singleTop **flag for your activity, overriding **onNewIntent() a**nd so on... I know implementing search is a pain, but it’s doable 😅
+Apart from that, you still need to dodge some Android gotchas — like **singleTop** flag for your activity, overriding **onNewIntent() a**nd so on... I know implementing search is a pain, but it’s doable 😅
 
 Let’s think about voice search — *some people prefer to talk, rather than write.* What’s more, when the user relies on 3rd party keyboard(and it breaks for some reason), it’s quite convenient having a fallback for searching via voice. We, Android guys are happy to configure voice search to make it possible:
 
@@ -46,7 +46,7 @@ One of the solution is to keep which of the search queried recently. We need to 
 
 #### 2. Better one — onSaveInstanceState()
 
-Keeping information in *onSavedInstanceState *bundle looks promising but wait — it is really needed?
+Keeping information in *onSavedInstanceState* bundle looks promising but wait — it is really needed?
 
 #### 3. Diving into SearchView API 🎉 🎉 🎉
 
@@ -63,9 +63,9 @@ How does it work? It is possible to configure SearchView with search data — we
 #### Conclusion
 
 Riddle presented here is available on Github 🐙 😺 **[HERE
-](https://github.com/Marchuck/MultipleSearchViews)**I used[ LordsOfTheRings API ](https://the-one-api.herokuapp.com/documentation)for sample content 😁
+](https://github.com/Marchuck/MultipleSearchViews)**I used[ LordsOfTheRings API](https://the-one-api.herokuapp.com/documentation) for sample content 😁
 (searching hobbits 💍 or elves 🏹)
 
-Feel free to comment ✍️, clap 👏 or star the [repo ](https://github.com/Marchuck/MultipleSearchViews)⭐️
+Feel free to comment ✍️, clap 👏 or star the [repo](https://github.com/Marchuck/MultipleSearchViews) ⭐️
 
 See you next time!

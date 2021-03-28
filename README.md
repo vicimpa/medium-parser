@@ -68,6 +68,9 @@ MediumParser.parseFromUrl(urlAsString)
 5. [Test parse](https://medium.com/@lukasz.marczak314/how-to-search-with-android-jetpack-ea55307e49a9) -> [result](example/test5.md)
 6. [Test parse](https://proandroiddev.com/creating-appbars-in-jetpack-compose-a8b5a5639930) -> [result](example/test6.md)
 7. [Test parse](https://medium.com/android-frontier/kelm-kotlin-ui-architecture-ea91fb745478) -> [result](example/test7.md)
+8. [Test parse](https://medium.com/open-graphql/how-to-resolve-import-for-the-graphql-file-with-typescript-and-webpack-7a34c906e4c1) -> [result](example/test8.md)
+9. [Test parse](https://medium.com/open-graphql/create-a-multiuser-graphql-crud-l-app-in-5-minutes-with-the-amplify-datastore-902764f27404) -> [result](example/test9.md)
+10. [Test parse](https://medium.com/open-graphql/react-hooks-for-graphql-3fa8ebdd6c62) -> [result](example/test10.md)
 
 ## License
 

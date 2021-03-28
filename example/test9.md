@@ -65,7 +65,7 @@ Successfully added auth resource
 No, I am done.
 ```
 
-Edit the schema file `notesapp/amplify/backend/api/amplifyDatasource/schema.graphql `and replace its contents with:
+Edit the schema file `notesapp/amplify/backend/api/amplifyDatasource/schema.graphql` and replace its contents with:
 
 ```
 type Note @model @auth(rules: [{ allow: owner }]) {
@@ -75,7 +75,7 @@ type Note @model @auth(rules: [{ allow: owner }]) {
 }
 ```
 
-As before we’re taking advantage of the [GraphQL Transform ](https://aws-amplify.github.io/docs/cli-toolchain/graphql)useful directives such as [`@model `](https://aws-amplify.github.io/docs/cli-toolchain/graphql#model)that will automatically create a DynamoDB table and all the CRUDL logic behind the scenes to store and interact with the data behind an AWS AppSync GraphQL API. We leverage the [`@auth `](https://aws-amplify.github.io/docs/cli-toolchain/graphql#auth)directive and its ability to easily create simple or complex authorization rules. Notice we added an additional field `owner `that was not present in the old app, this is needed to authorize real-time subscriptions in the DataStore.
+As before we’re taking advantage of the [GraphQL Transform](https://aws-amplify.github.io/docs/cli-toolchain/graphql) useful directives such as [`@model`](https://aws-amplify.github.io/docs/cli-toolchain/graphql#model) that will automatically create a DynamoDB table and all the CRUDL logic behind the scenes to store and interact with the data behind an AWS AppSync GraphQL API. We leverage the [`@auth`](https://aws-amplify.github.io/docs/cli-toolchain/graphql#auth) directive and its ability to easily create simple or complex authorization rules. Notice we added an additional field `owner` that was not present in the old app, this is needed to authorize real-time subscriptions in the DataStore.
 
 Now use the following commands to generate the data model then commit the changes and start the deployment of the managed serverless cloud resources (GraphQL API and noSQL table):
 
@@ -88,7 +88,7 @@ The backend services and resources will be configured, linked and deployed follo
 
 ![Services deployed and configured with a “push” INSET_CENTER](https://miro.medium.com/1*0vBzLU_NBjEQSyMcWN381w.png)
 
-Finally, while CloudFormation is doing its job to create and configure the scalable cloud resources, here’s the last piece of the puzzle. Edit the file `src/App.js `in the local project and overwrite the content with the following code:
+Finally, while CloudFormation is doing its job to create and configure the scalable cloud resources, here’s the last piece of the puzzle. Edit the file `src/App.js` in the local project and overwrite the content with the following code:
 
 ```js
 import React, { useEffect, useState } from "react";
@@ -251,7 +251,7 @@ function App() {
 export default withAuthenticator(App, { includeGreetings: true });
 ```
 
-Time to test! Execute `amplify serve `or `npm start `to test it locally then sign up a couple of users with a valid e-mail (you can use the same e-mail for different users) and mobile number, add some new notes and confirm one user has no access to the notes of the other user:
+Time to test! Execute `amplify serve` or `npm start` to test it locally then sign up a couple of users with a valid e-mail (you can use the same e-mail for different users) and mobile number, add some new notes and confirm one user has no access to the notes of the other user:
 
 ![DataStore in action INSET_CENTER](https://miro.medium.com/1*Sl9iejb9dax3roR62l-qaA.png)
 
@@ -267,5 +267,5 @@ The code is available on **[GitHub.](https://github.com/awsed/AppSyncGraphQLNote
 
 ![DataStore from Amplify Console INSET_CENTER](https://miro.medium.com/1*jhPN_D1UzBBnG-FuoxeHIA.gif)
 
-The Amplify DataStore allows developers to focus on their business logic, which is what will truly differentiate their applications. You can interact with local and cloud data interchangeably with simple intuitive commands such as `DataStore.save() `, `DataStore.query(),` `DataStore.delete(),` `DataStore.clear() `and receive real-time updates with `DataStore.observe().` All the complexities of distributed data conflict resolution, real-time, offline and versioning capabilities are handled for you.
+The Amplify DataStore allows developers to focus on their business logic, which is what will truly differentiate their applications. You can interact with local and cloud data interchangeably with simple intuitive commands such as `DataStore.save()` , `DataStore.query(),` `DataStore.delete(),` `DataStore.clear()` and receive real-time updates with `DataStore.observe().` All the complexities of distributed data conflict resolution, real-time, offline and versioning capabilities are handled for you.
 

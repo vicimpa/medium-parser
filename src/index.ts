@@ -155,8 +155,12 @@ const textMarks = async (text = '', marks: Mark[]) => {
   for (let i = 0; i < old.length + 1; i++) {
     const m = marks.filter(e => e.start == i).reverse()
     const e = marks.filter(e => e.end == i)
+    const sym = (old[i] || '')
 
-    text += (await startMarks(m)) + (old[i] || '') + (await endMarks(e))
+    if(sym == ' ')
+      text += (await startMarks(m)) + (await endMarks(e)) + sym
+    else
+      text += (await startMarks(m)) + (old[i] || '') + (await endMarks(e))
   }
 
   return text
@@ -343,5 +347,5 @@ if (process.argv.indexOf('--test') != -1) {
     }
   }
 
-  main(9).catch(console.error)
+  main().catch(console.error)
 }

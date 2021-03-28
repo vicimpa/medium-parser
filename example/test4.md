@@ -12,7 +12,7 @@ Since I started using Jetpack Compose I fell in love with it, there are so much 
 
 After spending some time understanding the whole concept of compose to create declarative UI’s I started questioning myself how to handle navigation with it, then I just deg into reading the example apps and understanding how it's done, and in this post, I gonna show you how to use navigation before an official approach comes up.
 
-All the code we are gonna use is extracted from the official jetpack compose examples, more on **jetSnack **and **Owl **app, since the Navigator they provide handles multiple backstacks.
+All the code we are gonna use is extracted from the official jetpack compose examples, more on **jetSnack** and **Owl** app, since the Navigator they provide handles multiple backstacks.
 
 ### How we used to handle navigation
 
@@ -26,9 +26,9 @@ This is how we actually do navigation with multiple destinations, the concept is
 
 ### What about Fragments?
 
-The concept of Fragments in Jetpack Compose is described [here,](https://developer.android.com/jetpack/compose/interop) basically, in Fragments we don't have the extension **setContent { } t**hat we usually have in our Activity component when we create a fresh Jetpack Compose example, instead, we need to add to our fragment a **ComposeView **that is used to bundle the **setContent { } **into the Fragment and start working into it.
+The concept of Fragments in Jetpack Compose is described [here,](https://developer.android.com/jetpack/compose/interop) basically, in Fragments we don't have the extension **setContent { } t**hat we usually have in our Activity component when we create a fresh Jetpack Compose example, instead, we need to add to our fragment a **ComposeView** that is used to bundle the **setContent { }** into the Fragment and start working into it.
 
-After this, we can start writing our **@Composable **functions inside our Fragments, but take in mind that if we write Composables inside our Fragments we are gonna need to also handle the Fragment lifecycle with our Composables, this will make it hard for us to be less prone to problems.
+After this, we can start writing our **@Composable** functions inside our Fragments, but take in mind that if we write Composables inside our Fragments we are gonna need to also handle the Fragment lifecycle with our Composables, this will make it hard for us to be less prone to problems.
 
 ### What about Jetpack Compose?
 
@@ -58,7 +58,7 @@ The app is called JetPoll and is an interactive Poll app where users can create 
 
 ![ INSET_CENTER](https://miro.medium.com/1*RDTMMGrrpuIzL_w2COpJPA.jpeg)
 
-What we are gonna do is to add Navigation to the **Create **poll button to navigate to another screen that will let the user Create a Poll
+What we are gonna do is to add Navigation to the **Create** poll button to navigate to another screen that will let the user Create a Poll
 
 Since this article will not cover how to create composables but how to handle navigation, I’m gonna talk about Navigation itself instead of how to create this UI.
 
@@ -167,7 +167,7 @@ internal val BackDispatcherAmbient = staticAmbientOf<OnBackPressedDispatcher> {
 
 First of all this Navigator takes 2 arguments, first one is the Initial destination, we are gonna call this destination the Home destination, is the first screen of our app, and then it takes a backDispatcher, this one is in charge of handling the back button press and handle the poping of the views of the backstack.
 
-With all that said, there is no much more about this class, what it does is it takes navigations and add them to a backstack with the **navigate() **method, then it pops off the backstack on backButton press or calling the **back() **method.
+With all that said, there is no much more about this class, what it does is it takes navigations and add them to a backstack with the **navigate()** method, then it pops off the backstack on backButton press or calling the **back()** method.
 
 After we define this, what we need to do is to create a NavGraph, something similar as we use to do with Jetpack Navigation but without XML.
 
@@ -199,9 +199,9 @@ class Actions(navigator: Navigator<Destination>) {
 }
 ```
 
-The **NavGraph **is responsible of knowing where we want to go, in this example, we just define a sealed class named Destination, this class will contain our current Destinations, in this case, I have 2, the Home destination and the CreatePoll destination (the one I need to go after pressing the **Create **poll button on the home screen)
+The **NavGraph** is responsible of knowing where we want to go, in this example, we just define a sealed class named Destination, this class will contain our current Destinations, in this case, I have 2, the Home destination and the CreatePoll destination (the one I need to go after pressing the **Create** poll button on the home screen)
 
-After that, there is a **Actions **class which takes a **Navigator **initialized with the **Destinations **that we wrote before, this Actions class will be responsible of defining the actions we will do to navigate to a certain screen in our app.
+After that, there is a **Actions** class which takes a **Navigator** initialized with the **Destinations** that we wrote before, this Actions class will be responsible of defining the actions we will do to navigate to a certain screen in our app.
 
 This is actually 80% of the work done, what we need to add next is one more thing that will help us measure the insets of the screen to populate with the new composable that will be called as the other screen.
 
@@ -579,11 +579,11 @@ As the Documentation it provides
 
 > ## Applies any [WindowInsetsCompat] values to [InsetsAmbient], which are then available * within [content]. *@param consumeWindowInsets Whether to consume any [WindowInsetsCompat]s which are dispatched to * the host view. Defaults to `true`.
 
-There is no much to say about this class, it will only measure the current composables that we are navigating and will take only composables in the **ProvideDisplayInsets **Composable
+There is no much to say about this class, it will only measure the current composables that we are navigating and will take only composables in the **ProvideDisplayInsets** Composable
 
 ### Let's create the Navigation
 
-Now that we already have all the classes we need for navigation and defining the destinations in the **NavGraph **file we are ready to start implementing it into our current code
+Now that we already have all the classes we need for navigation and defining the destinations in the **NavGraph** file we are ready to start implementing it into our current code
 
 First of all, in our MainActivity we will need to launch our Composable with the on *onBackPressedDispatcher w*hich will know when we do a backPress, passing this dispatcher lets us handle the backPress button and apply logic into it.
 
@@ -603,7 +603,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-Now that we already passed the *onBackPressedDispatcher *, now we need to create the Navigation into our PollMain composable.
+Now that we already passed the *onBackPressedDispatcher* , now we need to create the Navigation into our PollMain composable.
 
 #### PollMain
 
@@ -634,19 +634,19 @@ fun PollMain(viewModel: PollViewModel, backDispatcher: OnBackPressedDispatcher) 
 }
 ```
 
-This is the most important step, here we will define our **Navigator,** as you can see the first line of code defines the **Navigator **with the **Destinations **we provided on the **NavGraph,** then we use the **rememberSavedInstanceState,** and this is really great because it survives process death !!
+This is the most important step, here we will define our **Navigator,** as you can see the first line of code defines the **Navigator** with the **Destinations** we provided on the **NavGraph,** then we use the **rememberSavedInstanceState,** and this is really great because it survives process death !!
 
-Then the Navigator defines the saver, and here is what I was talking about before, we pass the *onBackPressedDispatcher *that will be configured to handle poping of the backstack.
+Then the Navigator defines the saver, and here is what I was talking about before, we pass the *onBackPressedDispatcher* that will be configured to handle poping of the backstack.
 
 Now, we need to initialize our **Navigator,** we will initialize it with the Home destination, so the first screen that pops up is the Home screen
 
 We then create an action variable that will remember our actions (current navigated screen) and will be responsible to push our new destinations into our screen.
 
-Lastly, we provide the **BackStackDispatcherAmbient **to handle the backstack and then the ProvideDisplayInsets we talked about before, this function just takes Composables as it child.
+Lastly, we provide the **BackStackDispatcherAmbient** to handle the backstack and then the ProvideDisplayInsets we talked about before, this function just takes Composables as it child.
 
-Here, **CrossFade **will just play a nicer CrossFade animation on the **navigator.current **which represents the new navigations that we are going
+Here, **CrossFade** will just play a nicer CrossFade animation on the **navigator.current** which represents the new navigations that we are going
 
-And lastly, we already have our destinations !! we use a when() expression to inflate one or the other, and this inflation will be caused with the action we created before, now, for example, my Home screen has the Create button, what I just need to do is that when I press that button to execute the **actions.createPoll **that we defined in our **NavGraph,** that's all.
+And lastly, we already have our destinations !! we use a when() expression to inflate one or the other, and this inflation will be caused with the action we created before, now, for example, my Home screen has the Create button, what I just need to do is that when I press that button to execute the **actions.createPoll** that we defined in our **NavGraph,** that's all.
 
 #### PollHome
 
@@ -692,7 +692,7 @@ private fun ShowError(exception: Exception) {
 
 ```
 
-Lastly, we just propagate the click to the **CreatePollComponent **which holds the Create button that we need to handle interaction with
+Lastly, we just propagate the click to the **CreatePollComponent** which holds the Create button that we need to handle interaction with
 
 #### CreatePollComponent
 
