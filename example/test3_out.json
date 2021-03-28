@@ -1,0 +1,5700 @@
+{
+  "window": {
+    "__BUILD_ID__": "main-20210326-225631-0a48783f52",
+    "__GRAPHQL_URI__": "https://medium.com/_/graphql",
+    "__PRELOADED_STATE__": {
+      "auroraPage": {
+        "isAuroraPageEnabled": true
+      },
+      "bookReader": {
+        "assets": {},
+        "reader": {
+          "currentAsset": null,
+          "settingsPanelIsOpen": false,
+          "settings": {
+            "fontFamily": "CHARTER",
+            "fontScale": "M",
+            "publisherStyling": true,
+            "textAlignment": "START",
+            "theme": "White",
+            "lineSpacing": 0,
+            "wordSpacing": 0,
+            "letterSpacing": 0
+          },
+          "internalNavCounter": 0
+        }
+      },
+      "cache": {
+        "experimentGroupSet": true,
+        "reason": "",
+        "group": "control",
+        "tags": [],
+        "serverVariantState": ""
+      },
+      "client": {
+        "hydrated": false,
+        "isUs": false,
+        "isNativeMedium": false,
+        "isSafariMobile": false,
+        "isSafari": false,
+        "routingEntity": {
+          "type": "DEFAULT",
+          "explicit": false
+        },
+        "supportsWebp": false
+      },
+      "config": {
+        "nodeEnv": "production",
+        "version": "main-20210326-225631-0a48783f52",
+        "isTaggedVersion": false,
+        "target": "production",
+        "productName": "Medium",
+        "publicUrl": "https://cdn-client.medium.com/lite",
+        "authDomain": "medium.com",
+        "authGoogleClientId": "216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com",
+        "favicon": "production",
+        "glyphUrl": "https://glyph.medium.com",
+        "branchKey": "key_live_ofxXr2qTrrU9NqURK8ZwEhknBxiI6KBm",
+        "lightStep": {
+          "name": "lite-web",
+          "host": "lightstep.medium.systems",
+          "token": "ce5be895bef60919541332990ac9fef2",
+          "appVersion": "main-20210326-225631-0a48783f52"
+        },
+        "algolia": {
+          "appId": "MQ57UUUQZ2",
+          "apiKeySearch": "394474ced050e3911ae2249ecc774921",
+          "indexPrefix": "medium_",
+          "host": "-dsn.algolia.net"
+        },
+        "recaptchaKey": "6Lfc37IUAAAAAKGGtC6rLS13R1Hrw_BqADfS1LRk",
+        "recaptcha3Key": "6Lf8R9wUAAAAABMI_85Wb8melS7Zj6ziuf99Yot5",
+        "datadog": {
+          "clientToken": "pub853ea8d17ad6821d9f8f11861d23dfed",
+          "context": {
+            "deployment": {
+              "target": "production",
+              "tag": "main-20210326-225631-0a48783f52",
+              "commit": "0a48783f52ecacac18d343c005edcfbb9efe696b"
+            }
+          },
+          "datacenter": "us"
+        },
+        "isAmp": false,
+        "googleAnalyticsCode": "UA-24232453-2",
+        "signInWallCustomDomainCollectionIds": [
+          "3a8144eabfe3",
+          "336d898217ee",
+          "61061eb0c96b",
+          "138adf9c44c",
+          "819cc2aaeee0"
+        ],
+        "mediumOwnedAndOperatedCollectionIds": [
+          "544c7006046e",
+          "bcc38c8f6edf",
+          "444d13b52878",
+          "8d6b8a439e32",
+          "92d2092dc598",
+          "1285ba81cada",
+          "cb8577c9149e",
+          "8ccfed20cbb2",
+          "ae2a65f35510",
+          "3f6ecf56618",
+          "7b6769f2748b",
+          "fc8964313712",
+          "ef8e90590e66",
+          "191186aaafa0",
+          "d944778ce714",
+          "bdc4052bbdba",
+          "88d9857e584e",
+          "9dc80918cc93",
+          "8a9336e5bb4",
+          "cef6983b292",
+          "54c98c43354d",
+          "193b68bd4fba",
+          "b7e45b22fec3",
+          "55760f21cdc5"
+        ],
+        "tierOneDomains": [
+          "medium.com",
+          "thebolditalic.com",
+          "arcdigital.media",
+          "towardsdatascience.com",
+          "uxdesign.cc",
+          "codeburst.io",
+          "psiloveyou.xyz",
+          "writingcooperative.com",
+          "entrepreneurshandbook.co",
+          "prototypr.io",
+          "betterhumans.coach.me",
+          "theascent.pub"
+        ],
+        "topicsToFollow": [
+          "d61cf867d93f",
+          "8a146bc21b28",
+          "1eca0103fff3",
+          "4d562ee63426",
+          "aef1078a3ef5",
+          "e15e46793f8d",
+          "6158eb913466",
+          "55f1c20aba7a",
+          "3d18b94f6858",
+          "4861fee224fd",
+          "63c6f1f93ee",
+          "1d98b3a9a871",
+          "decb52b64abf",
+          "ae5d4995e225",
+          "830cded25262"
+        ],
+        "defaultImages": {
+          "avatar": {
+            "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+            "height": 150,
+            "width": 150
+          },
+          "orgLogo": {
+            "imageId": "1*OMF3fSqH8t4xBJ9-6oZDZw.png",
+            "height": 106,
+            "width": 545
+          },
+          "postLogo": {
+            "imageId": "1*kFrc4tBFM_tCis-2Ic87WA.png",
+            "height": 810,
+            "width": 1440
+          },
+          "postPreviewImage": {
+            "imageId": "1*hn4v1tCaJy7cWMyb0bpNpQ.png",
+            "height": 386,
+            "width": 579
+          }
+        },
+        "collectionStructuredData": {
+          "8d6b8a439e32": {
+            "name": "Elemental",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-images-1.medium.com/max/980/1*9ygdqoKprhwuTVKUM0DLPA@2x.png",
+                "width": 980,
+                "height": 159
+              }
+            }
+          },
+          "3f6ecf56618": {
+            "name": "Forge",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-images-1.medium.com/max/596/1*uULpIlImcO5TDuBZ6lm7Lg@2x.png",
+                "width": 596,
+                "height": 183
+              }
+            }
+          },
+          "ae2a65f35510": {
+            "name": "GEN",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/264/1*RdVZMdvfV3YiZTw6mX7yWA.png",
+                "width": 264,
+                "height": 140
+              }
+            }
+          },
+          "88d9857e584e": {
+            "name": "LEVEL",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/540/1*JqYMhNX6KNNb2UlqGqO2WQ.png",
+                "width": 540,
+                "height": 108
+              }
+            }
+          },
+          "7b6769f2748b": {
+            "name": "Marker",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-images-1.medium.com/max/383/1*haCUs0wF6TgOOvfoY-jEoQ@2x.png",
+                "width": 383,
+                "height": 92
+              }
+            }
+          },
+          "444d13b52878": {
+            "name": "OneZero",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/540/1*cw32fIqCbRWzwJaoQw6BUg.png",
+                "width": 540,
+                "height": 123
+              }
+            }
+          },
+          "8ccfed20cbb2": {
+            "name": "Zora",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/540/1*tZUQqRcCCZDXjjiZ4bDvgQ.png",
+                "width": 540,
+                "height": 106
+              }
+            }
+          }
+        },
+        "embeddedPostIds": {
+          "coronavirus": "cd3010f9d81f"
+        },
+        "sharedCdcMessaging": {
+          "COVID_APPLICABLE_TAG_SLUGS": [],
+          "COVID_APPLICABLE_TOPIC_NAMES": [],
+          "COVID_APPLICABLE_TOPIC_NAMES_FOR_TOPIC_PAGE": [],
+          "COVID_MESSAGES": {
+            "tierA": {
+              "text": "For more information on the novel coronavirus and Covid-19, visit cdc.gov.",
+              "markups": [
+                {
+                  "start": 66,
+                  "end": 73,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            },
+            "tierB": {
+              "text": "Anyone can publish on Medium per our Policies, but we don’t fact-check every story. For more info about the coronavirus, see cdc.gov.",
+              "markups": [
+                {
+                  "start": 37,
+                  "end": 45,
+                  "href": "https://help.medium.com/hc/en-us/categories/201931128-Policies-Safety"
+                },
+                {
+                  "start": 125,
+                  "end": 132,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            },
+            "paywall": {
+              "text": "This article has been made free for everyone, thanks to Medium Members. For more information on the novel coronavirus and Covid-19, visit cdc.gov.",
+              "markups": [
+                {
+                  "start": 56,
+                  "end": 70,
+                  "href": "https://medium.com/membership"
+                },
+                {
+                  "start": 138,
+                  "end": 145,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            },
+            "unbound": {
+              "text": "This article is free for everyone, thanks to Medium Members. For more information on the novel coronavirus and Covid-19, visit cdc.gov.",
+              "markups": [
+                {
+                  "start": 45,
+                  "end": 59,
+                  "href": "https://medium.com/membership"
+                },
+                {
+                  "start": 127,
+                  "end": 134,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            }
+          },
+          "COVID_BANNER_POST_ID_OVERRIDE_WHITELIST": [
+            "3b31a67bff4a"
+          ]
+        },
+        "sharedVoteMessaging": {
+          "TAGS": [
+            "politics",
+            "election-2020",
+            "government",
+            "us-politics",
+            "election",
+            "2020-presidential-race",
+            "trump",
+            "donald-trump",
+            "democrats",
+            "republicans",
+            "congress",
+            "republican-party",
+            "democratic-party",
+            "biden",
+            "joe-biden",
+            "maga"
+          ],
+          "TOPICS": [
+            "politics",
+            "election"
+          ],
+          "MESSAGE": {
+            "text": "Find out more about the U.S. election results here.",
+            "markups": [
+              {
+                "start": 46,
+                "end": 50,
+                "href": "https://cookpolitical.com/2020-national-popular-vote-tracker"
+              }
+            ]
+          },
+          "EXCLUDE_POSTS": [
+            "397ef29e3ca5"
+          ]
+        },
+        "embedPostRules": [],
+        "recircOptions": {
+          "v1": {
+            "limit": 3
+          },
+          "v2": {
+            "limit": 8
+          }
+        },
+        "braintreeClientKey": "production_zjkj96jm_m56f8fqpf7ngnrd4",
+        "paypalClientId": "AXj1G4fotC2GE8KzWX9mSxCH1wmPE3nJglf4Z2ig_amnhvlMVX87otaq58niAg9iuLktVNF_1WCMnN7v",
+        "stripePublishableKey": "pk_live_7FReX44VnNIInZwrIIx6ghjl"
+      },
+      "debug": {
+        "requestId": "ed91b5d0-0efe-4d81-9a7d-a252eef251ba",
+        "branchDeployConfig": null,
+        "hybridDevServices": [],
+        "originalSpanCarrier": {
+          "ot-tracer-spanid": "416a9f8710385701",
+          "ot-tracer-traceid": "6de603a95e5c6a85",
+          "ot-tracer-sampled": "true"
+        }
+      },
+      "multiVote": {
+        "clapsPerPost": {}
+      },
+      "navigation": {
+        "branch": {
+          "show": null,
+          "hasRendered": null,
+          "blockedByCTA": false
+        },
+        "hideGoogleOneTap": false,
+        "hasRenderedGoogleOneTap": null,
+        "hasRenderedAlternateUserBanner": null,
+        "currentLocation": "https://medium.com/@hakim.fakher/kotlin-coroutines-basics-part-2-4087ce15ff28",
+        "host": "medium.com",
+        "hostname": "medium.com",
+        "referrer": "",
+        "hasSetReferrer": false,
+        "susiModal": {
+          "step": null,
+          "operation": "register"
+        },
+        "postRead": false
+      },
+      "session": {
+        "user": {
+          "id": "lo_6c83d5153268"
+        },
+        "xsrf": "",
+        "isSpoofed": false
+      },
+      "tracing": {}
+    },
+    "__APOLLO_STATE__": {
+      "ROOT_QUERY": {
+        "__typename": "Query",
+        "variantFlags": [
+          {
+            "__typename": "VariantFlag",
+            "name": "allow_access",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "allow_signup",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "allow_test_auth",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "disallow"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "android_enable_lock_responses",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "assign_default_topic_to_posts",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "available_annual_plan",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "2c754bcc2995"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "available_monthly_plan",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "60e220181034"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "bane_add_user",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "bane_verify_domain",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "branch_seo_metadata",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "browsable_stream_config_bucket",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "curated-topics"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "coronavirus_topic_recirc",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "covid_19_cdc_banner",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "default_seo_post_titles",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "deindex_from_external_search_threshold",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "1609488000000"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "disable_android_subscription_activity_carousel",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "disable_ios_resume_reading_toast",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "disable_ios_subscription_activity_carousel",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "disable_mobile_featured_chunk",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "disable_post_recommended_from_friends_provider",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_android_local_currency",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_annual_renewal_reminder_email",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_app_flirty_thirty",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_apple_parse_expires_at",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_apple_sign_in",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_apple_webhook",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_apple_webhook_renewal_failure",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_about_page_routing",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_general_admission",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_nav",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_profile_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_pub_follower_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_recirc",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_sticky_nav",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_aurora_tag_page_routing",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_author_autotier",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_author_cards",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_author_cards_byline",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_automated_mission_control_triggers",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_bg_provider_group_b",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_braintree_apple_pay",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_braintree_client",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_braintree_integration",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_braintree_paypal",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_braintree_trial_membership",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_braintree_webhook",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_branch_io",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_branch_text_me_the_app",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_branding",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_branding_fonts",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_cleansweep_double_writes",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_client_error_tracking",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "none"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_confirm_sign_in",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_cta_meter",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_curation_priority_queue_experiment",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_custom_domain_v2_settings",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_dedicated_series_tab_api_ios",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_digest_feature_logging",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_digest_tagline",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_earn_redirect",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_edit_alt_text",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_email_sign_in_captcha",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_embedding_based_diversification",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_end_of_post_cleanup",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_evhead_com_to_ev_medium_com_redirect",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_expanded_feature_chunk_pool",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_filter_by_resend_rules",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_filter_expire_processor",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_footer_app_buttons",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_fyf_authors_and_collections",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_fyf_rex_sourcing",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_global_susi_modal",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_google_one_tap",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_google_webhook",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_google_webhook_subscription_cancelled",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_highlander_member_digest",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_hightower_user_minimum_guarantee",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_homepage_who_to_follow_module",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_homepage_write_button",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_ios_post_stats",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_json_logs_trained_ranker",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_kbfd_rex",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_kbfd_rex_app_highlights",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_auto_expand_responses",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_homepage",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_homepage_feed",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_notifications",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_pay_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_post",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_post_cd",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_pub_homepage_for_selected_domains",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_server_upstream_deadlines",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_stories",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_topics",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lite_unread_notification_count_mutation",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_lock_responses",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_login_code_flow",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_marketing_emails",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_media_resource_try_catch",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_medium2_kbfd",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_membership_remove_section_a",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_miro_on_kubernetes",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_mission_control",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_ml_rank_modules",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_ml_rank_rex_anno",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_mute",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_new_checkout_flow",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_new_collaborative_filtering_data",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_new_login_flow",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_new_three_dot_menu",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_new_user_onboarding_email_enhancement",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_parsely",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_patronus_on_kubernetes",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_popularity_feature",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_post_import",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_post_page_nav_stickiness_removal",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_post_settings_screen",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_pp_tax_status_clarity",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_primary_topic_for_mobile",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_profile_design_reminder",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_profile_page_seo_titles",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_publish_to_email_for_publication_posts",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_receipt_notes",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_responses_all",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_responses_edit_and_delete",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_responses_moderation",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_rex_follow_feed_cache",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_rito_upstream_deadlines",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_rtr_channel",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_s3_sites",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_save_to_medium",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_signup_friction",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_starspace",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_starspace_ranker_starspace",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_stripegate",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_tick_landing_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_tipalti_onboarding",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_trending_posts_diversification",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_tribute_landing_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_triton_predictions",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_trumpland_landing_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_twitter_auth_suggestions",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "enable_unfiltered_cf",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "entity_driven_subscription_milestone_1",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "filter_last_seen",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "glyph_font_set",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "m2-unbound"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "google_sign_in_android",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "ios_enable_generic_home_modules",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "ios_enable_home_post_menu",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "ios_enable_lock_responses",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "ios_iceland_nux",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "ios_pub_follow_email_opt_in",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "is_not_medium_subscriber",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "kill_fastrak",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "kill_stripe_express",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "limit_post_referrers",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "limit_user_follows",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "make_nav_sticky",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "new_transition_page",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "provider_for_credit_card_form",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "BRAINTREE"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "pub_sidebar",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "redefine_average_post_reading_time",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "remove_low_quality_posts_from_internal_search",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "remove_post_post_similarity",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "retrained_ranker",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "sign_up_with_email_button",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "signin_services",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "twitter,facebook,google,email,google-fastidv,google-one-tap,apple"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "signup_services",
+            "valueType": {
+              "__typename": "VariantFlagString",
+              "value": "twitter,facebook,google,email,google-fastidv,google-one-tap,apple"
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "skip_sign_in_recaptcha",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "suppress_apple_missing_expires_date_alert",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          },
+          {
+            "__typename": "VariantFlag",
+            "name": "use_new_admin_topic_backend",
+            "valueType": {
+              "__typename": "VariantFlagBoolean",
+              "value": true
+            }
+          }
+        ],
+        "viewer": null,
+        "meterPost({\"postId\":\"4087ce15ff28\",\"postMeteringOptions\":{\"referrer\":\"\",\"sk\":null}})": {
+          "__ref": "MeteringInfo:{}"
+        },
+        "postResult({\"id\":\"4087ce15ff28\"})": {
+          "__ref": "Post:4087ce15ff28"
+        }
+      },
+      "MeteringInfo:{}": {
+        "__typename": "MeteringInfo",
+        "postIds": [],
+        "maxUnlockCount": 3,
+        "unlocksRemaining": 0
+      },
+      "User:c3a4b9ddd1b1": {
+        "id": "c3a4b9ddd1b1",
+        "__typename": "User",
+        "isFollowing": null,
+        "viewerIsUser": false,
+        "isSuspended": false,
+        "name": "Fakher Hakim",
+        "hasCompletedProfile": false,
+        "bio": "Android Developer",
+        "imageId": "2*uk99F94yVLN1m4eOShU51A.jpeg",
+        "username": "hakim.fakher",
+        "customStyleSheet": null,
+        "customDomainState": null,
+        "isAuroraVisible": true,
+        "createdAt": 0,
+        "mediumMemberAt": 0,
+        "lastPostCreatedAt": 0,
+        "socialStats": {
+          "__typename": "SocialStats",
+          "followerCount": 1,
+          "followingCount": 75
+        },
+        "hasSubdomain": false,
+        "isAllowEdsEnabled": false,
+        "isBlocking": null,
+        "isMuting": null,
+        "allowNotes": true,
+        "newsletterV3": null,
+        "twitterScreenName": "",
+        "atsQualifiedAt": 0
+      },
+      "Paragraph:aee55f41d64d_0": {
+        "id": "aee55f41d64d_0",
+        "__typename": "Paragraph",
+        "name": "9da8",
+        "text": "Kotlin Coroutines Basics part-2",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_1": {
+        "id": "aee55f41d64d_1",
+        "__typename": "Paragraph",
+        "name": "6ffd",
+        "text": "Async, withContext, exception handling",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_2": {
+        "id": "aee55f41d64d_2",
+        "__typename": "Paragraph",
+        "name": "d31c",
+        "text": "",
+        "type": "IMG",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": {
+          "__ref": "ImageMetadata:1*CcTehqIhXGAYsWn7E_guJQ.jpeg"
+        },
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_3": {
+        "id": "aee55f41d64d_3",
+        "__typename": "Paragraph",
+        "name": "4aa2",
+        "text": "Introduction",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_4": {
+        "id": "aee55f41d64d_4",
+        "__typename": "Paragraph",
+        "name": "7438",
+        "text": "This is the part-2 of a series of posts explaining multi-threading using coroutines. If you didn’t check the first part, here is the link. I recommend you to read it before you continue reading this part, it present some of fundamental concept of coroutines. In this part, we will talk about async, withContext and exception handling.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 292,
+            "end": 297,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 299,
+            "end": 310,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 133,
+            "end": 137,
+            "type": "A",
+            "href": "https://medium.com/@hakim.fakher/kotlin-coroutines-basics-5ac9d362a1d5",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_5": {
+        "id": "aee55f41d64d_5",
+        "__typename": "Paragraph",
+        "name": "5913",
+        "text": "Async",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_6": {
+        "id": "aee55f41d64d_6",
+        "__typename": "Paragraph",
+        "name": "5048",
+        "text": "So what is an async in coroutines and why they are so useful ? Remember the launch that we talked about in the last part ? In fact async is just like launch it starts a coroutine except that it return a result. The only difference between async and a normal function is that async start a coroutine that run in a different thread with parallel with the main thread so the result returned by async is deferred in time until the coroutine finish the work and return the result. That’s why the async return what we call a Deferred. So once we need the result of that coroutine, we call the method await() to get the value. In fact this method is a blocking method, that’s mean if the value is ready it will return it immediately otherwise it will block the thread until it become available and at that time it returns the value.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 14,
+            "end": 19,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 76,
+            "end": 82,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 131,
+            "end": 136,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 519,
+            "end": 528,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 594,
+            "end": 601,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_7": {
+        "id": "aee55f41d64d_7",
+        "__typename": "Paragraph",
+        "name": "8556",
+        "text": "Let’s see in practice how we use an async . So we will write a small program that has two suspend functions returning each an Integer after some work (for simplicity of the example we will just add a delay), than we will print the sum of these two numbers! easy isn’t it ? :D",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 36,
+            "end": 41,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 90,
+            "end": 97,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_8": {
+        "id": "aee55f41d64d_8",
+        "__typename": "Paragraph",
+        "name": "f3e6",
+        "text": "fun main() {\n    runBlocking {\n        val firstDeferred = async { getFirstNumber() }\n        val secondDeferred = async { getSecondNumber() }\n\n        println(\"Doing some processing!\")\n        delay(500)\n        println(\"Waiting for values\")\n\n        val firstValue = firstDeferred.await()\n        val secondValue = secondDeferred.await()\n\n        println(\"the sum is ${firstValue + secondValue}\")\n    }\n}\n\nsuspend fun getFirstNumber(): Int {\n    delay(1000)\n    val value = Random.nextInt(100)\n    println(\"returning first value: $value\")\n    return value\n}\n\nsuspend fun getSecondNumber(): Int {\n    delay(2000)\n    val value = Random.nextInt(100)\n    println(\"returning second value: $value\")\n    return value\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 29,
+            "end": 39,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 65,
+            "end": 67,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 84,
+            "end": 94,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 121,
+            "end": 123,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 141,
+            "end": 152,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 403,
+            "end": 405,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 29,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 59,
+            "end": 65,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 115,
+            "end": 121,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 152,
+            "end": 159,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 213,
+            "end": 220,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 349,
+            "end": 356,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 500,
+            "end": 507,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 654,
+            "end": 661,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_9": {
+        "id": "aee55f41d64d_9",
+        "__typename": "Paragraph",
+        "name": "8e58",
+        "text": "So here we have these two function that will do some work than each return an Integer. In the main program, we launch these two function in an async in order to get the result. After launching these two asyncs, let’s say we have a small processing of 500 millis in our program and then, we want to get the values from the two functions in order to print there sum! In order to get the value immediately, we must call the method await to force the async to get the value! Actually, it will pause the current thread, execute the work until the value is ready and then return it. Try to run this code and see the output and the delays between each print.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 143,
+            "end": 148,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 428,
+            "end": 433,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_10": {
+        "id": "aee55f41d64d_10",
+        "__typename": "Paragraph",
+        "name": "c9e2",
+        "text": "main Doing some processing!\nWaiting for values\nmain returning first value: 72\nmain returning second value: 76\nthe sum is 148",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_11": {
+        "id": "aee55f41d64d_11",
+        "__typename": "Paragraph",
+        "name": "2115",
+        "text": "So that’s it for the async !",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 21,
+            "end": 26,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_12": {
+        "id": "aee55f41d64d_12",
+        "__typename": "Paragraph",
+        "name": "6502",
+        "text": "Remember, use launch when you don’t have a value to return from that coroutine, use async in case you expect a value !",
+        "type": "BQ",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 14,
+            "end": 20,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 84,
+            "end": 89,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_13": {
+        "id": "aee55f41d64d_13",
+        "__typename": "Paragraph",
+        "name": "74c7",
+        "text": "withContext",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_14": {
+        "id": "aee55f41d64d_14",
+        "__typename": "Paragraph",
+        "name": "8d82",
+        "text": "It’s no more than a function! withContext is a function that allows us to switch between Dispatchers inside a coroutine.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 30,
+            "end": 41,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 89,
+            "end": 100,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_15": {
+        "id": "aee55f41d64d_15",
+        "__typename": "Paragraph",
+        "name": "3dce",
+        "text": "Let’s say we have an Android application that will apply a filter on an Image before showing it. Of course applying a filter is an intensif work we can’t apply it in the UiThread. So we must launch a coroutine with Dispatchers.Default (Use Default Dispatchers for CPU processing works) and then once the image is ready, we show it in the UI. Now to show the image in the UI thread, we must switch from the background thread that applied the filter on the image to the UI thread that will show the filtered image. In order to do that, we just call the function withContext(Dispatchers.Main(){//Show the image} and that code will be executed in the main dispatcher given to the method withContext() which is the UiThread in Android.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 215,
+            "end": 234,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 560,
+            "end": 608,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 683,
+            "end": 696,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_16": {
+        "id": "aee55f41d64d_16",
+        "__typename": "Paragraph",
+        "name": "4635",
+        "text": "Let’s go through an example, we will just print the coroutineContext in each scope and see what’s the dispatcher the code is running on.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 52,
+            "end": 68,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_17": {
+        "id": "aee55f41d64d_17",
+        "__typename": "Paragraph",
+        "name": "e720",
+        "text": "fun main() {\n    runBlocking {\n        launch (Dispatchers.Default){\n            println(\"First context is $coroutineContext\")\n\n            withContext(Dispatchers.IO){\n                println(\"Second context is $coroutineContext\")\n            }\n            println(\"Third context is $coroutineContext\")\n        }\n    }\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 29,
+            "end": 39,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 67,
+            "end": 81,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 167,
+            "end": 185,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 244,
+            "end": 258,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 312,
+            "end": 320,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 29,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 39,
+            "end": 46,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 81,
+            "end": 88,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 185,
+            "end": 192,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 258,
+            "end": 265,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_18": {
+        "id": "aee55f41d64d_18",
+        "__typename": "Paragraph",
+        "name": "20a2",
+        "text": "When we run this code we get this output:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_19": {
+        "id": "aee55f41d64d_19",
+        "__typename": "Paragraph",
+        "name": "5dcb",
+        "text": "First context is [StandaloneCoroutine{Active}@d018aa4, DefaultDispatcher]",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 45,
+            "end": 53,
+            "type": "A",
+            "href": "http://twitter.com/d018aa4",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_20": {
+        "id": "aee55f41d64d_20",
+        "__typename": "Paragraph",
+        "name": "696a",
+        "text": "Second context is [DispatchedCoroutine{Active}@71b2215, LimitingDispatcher@2c910d33[dispatcher = DefaultDispatcher]]",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 46,
+            "end": 54,
+            "type": "A",
+            "href": "http://twitter.com/71b2215",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_21": {
+        "id": "aee55f41d64d_21",
+        "__typename": "Paragraph",
+        "name": "a28e",
+        "text": "Third context is [StandaloneCoroutine{Active}@d018aa4, DefaultDispatcher]",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 45,
+            "end": 53,
+            "type": "A",
+            "href": "http://twitter.com/d018aa4",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_22": {
+        "id": "aee55f41d64d_22",
+        "__typename": "Paragraph",
+        "name": "b5e5",
+        "text": "For the first and the third message, it’s the same context, the same Dispatcher (in my case it’s @d018aa4) but for the second message which is printed inside a withContext method, the context here is changed (and the dispatcher obviously).",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_23": {
+        "id": "aee55f41d64d_23",
+        "__typename": "Paragraph",
+        "name": "507d",
+        "text": "The withContext is very useful method especially when working on Android application and you need to update the UI in the main thread.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_24": {
+        "id": "aee55f41d64d_24",
+        "__typename": "Paragraph",
+        "name": "4804",
+        "text": "Exception handling",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_25": {
+        "id": "aee55f41d64d_25",
+        "__typename": "Paragraph",
+        "name": "7685",
+        "text": "In this section we will talk about exception handling in coroutine. In fact it depends weither we started the coroutine by launch or async method. The launch method return a Job , the async return a Deferred .",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 123,
+            "end": 129,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 133,
+            "end": 138,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 151,
+            "end": 157,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 174,
+            "end": 177,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 184,
+            "end": 189,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 199,
+            "end": 207,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_26": {
+        "id": "aee55f41d64d_26",
+        "__typename": "Paragraph",
+        "name": "c0d8",
+        "text": "launch :",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 0,
+            "end": 6,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_27": {
+        "id": "aee55f41d64d_27",
+        "__typename": "Paragraph",
+        "name": "9653",
+        "text": "Propagate through the parent-child hierarchy.",
+        "type": "ULI",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_28": {
+        "id": "aee55f41d64d_28",
+        "__typename": "Paragraph",
+        "name": "1c93",
+        "text": "The exception will be thrown immediately and jobs will fail.",
+        "type": "ULI",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_29": {
+        "id": "aee55f41d64d_29",
+        "__typename": "Paragraph",
+        "name": "2cb8",
+        "text": "Use try/catch or an exception handling.",
+        "type": "ULI",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_30": {
+        "id": "aee55f41d64d_30",
+        "__typename": "Paragraph",
+        "name": "0c2b",
+        "text": "async :",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 0,
+            "end": 5,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_31": {
+        "id": "aee55f41d64d_31",
+        "__typename": "Paragraph",
+        "name": "3545",
+        "text": "Exceptions are deferred until the value is consumed (by calling the await() function).",
+        "type": "ULI",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 68,
+            "end": 75,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_32": {
+        "id": "aee55f41d64d_32",
+        "__typename": "Paragraph",
+        "name": "e7be",
+        "text": "If the result is not consumed, the exception is never thrown.",
+        "type": "ULI",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_33": {
+        "id": "aee55f41d64d_33",
+        "__typename": "Paragraph",
+        "name": "5afc",
+        "text": "Use try-catch in the coroutine or in the await call.",
+        "type": "ULI",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 41,
+            "end": 46,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_34": {
+        "id": "aee55f41d64d_34",
+        "__typename": "Paragraph",
+        "name": "fffa",
+        "text": "Now let’s try to handle exceptions in both cases.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_35": {
+        "id": "aee55f41d64d_35",
+        "__typename": "Paragraph",
+        "name": "867a",
+        "text": "we will start by launch , the example is quiet simple, we are going to launch a coroutine and throw an Exception, then we will join this job to the main context (If we don’t join the job, we will not get the exception).",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 23,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_36": {
+        "id": "aee55f41d64d_36",
+        "__typename": "Paragraph",
+        "name": "1e30",
+        "text": "fun main() {\n    runBlocking {\n        val job = GlobalScope.launch {\n            println(\"Throwing an exception from job\")\n            throw IllegalStateException(\"This is an illegal State Exception!\")\n        }\n        job.join()\n    }\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 29,
+            "end": 39,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 68,
+            "end": 82,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 211,
+            "end": 221,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 236,
+            "end": 238,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 29,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 61,
+            "end": 68,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 82,
+            "end": 89,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_37": {
+        "id": "aee55f41d64d_37",
+        "__typename": "Paragraph",
+        "name": "3aa9",
+        "text": "Once we run this code we will get a beautiful IllegalStateException!",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_38": {
+        "id": "aee55f41d64d_38",
+        "__typename": "Paragraph",
+        "name": "baf7",
+        "text": "So the question is how we are going to handle this exception?",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_39": {
+        "id": "aee55f41d64d_39",
+        "__typename": "Paragraph",
+        "name": "6ed4",
+        "text": "Coroutines offers an exception handler that we can create and pass it as parameter to the launch method.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 90,
+            "end": 96,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_40": {
+        "id": "aee55f41d64d_40",
+        "__typename": "Paragraph",
+        "name": "1c6b",
+        "text": "First, let’s create the exception handler:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_41": {
+        "id": "aee55f41d64d_41",
+        "__typename": "Paragraph",
+        "name": "7311",
+        "text": "val myHandler = CoroutineExceptionHandler { coroutineContext, throwable ->\n    println(\"handling error: ${throwable.message}\")\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 42,
+            "end": 44,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 72,
+            "end": 79,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 127,
+            "end": 128,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 4,
+            "end": 14,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 16,
+            "end": 42,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 79,
+            "end": 86,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_42": {
+        "id": "aee55f41d64d_42",
+        "__typename": "Paragraph",
+        "name": "8b7d",
+        "text": "that’s it! now we can add this handler to our job so we can handle the exception.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_43": {
+        "id": "aee55f41d64d_43",
+        "__typename": "Paragraph",
+        "name": "0013",
+        "text": "fun main() {\n    runBlocking {\n        val job = GlobalScope.launch(myHandler) { //We pass the //handler to the launch function\n            println(\"Throwing an exception from job\")\n            throw IllegalStateException(\"This is an illegal State Exception!\")\n        }\n        job.join()\n    }\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 29,
+            "end": 39,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 79,
+            "end": 81,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 269,
+            "end": 279,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 294,
+            "end": 296,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 29,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 61,
+            "end": 67,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 68,
+            "end": 77,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 81,
+            "end": 147,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_44": {
+        "id": "aee55f41d64d_44",
+        "__typename": "Paragraph",
+        "name": "6705",
+        "text": "now try to run this code and you will see that the exception is handled and the program doesn’t crash any more.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_45": {
+        "id": "aee55f41d64d_45",
+        "__typename": "Paragraph",
+        "name": "4502",
+        "text": "Now, what if we want launch the coroutine in a different dispatcher and with an exception handler that we defined ?",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_46": {
+        "id": "aee55f41d64d_46",
+        "__typename": "Paragraph",
+        "name": "eaca",
+        "text": "it’s quiet easy, we have just to add it as parameter in the launch method this way:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_47": {
+        "id": "aee55f41d64d_47",
+        "__typename": "Paragraph",
+        "name": "ecde",
+        "text": "val job = GlobalScope.launch(Dispatchers.IO + myHandler){//Code}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 22,
+            "end": 28,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 46,
+            "end": 55,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_48": {
+        "id": "aee55f41d64d_48",
+        "__typename": "Paragraph",
+        "name": "8ed0",
+        "text": "So now we have a coroutine launched in IO Dispatcher with an exception handler that we defined.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_49": {
+        "id": "aee55f41d64d_49",
+        "__typename": "Paragraph",
+        "name": "0720",
+        "text": "Now let’s talk about async function. let’s launch an async and call the await method and see how we can catch the exception.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 21,
+            "end": 26,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 53,
+            "end": 58,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 72,
+            "end": 77,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_50": {
+        "id": "aee55f41d64d_50",
+        "__typename": "Paragraph",
+        "name": "3a27",
+        "text": "fun main() {\n    runBlocking {\n        val deferred = GlobalScope.async {\n            println(\"Throwing an exception from deferred\")\n            throw IllegalStateException(\"This is an illegal State Exception!\")\n        }\n        deferred.await()\n    }\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 29,
+            "end": 39,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 72,
+            "end": 86,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 220,
+            "end": 230,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 251,
+            "end": 253,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 29,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 66,
+            "end": 72,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 86,
+            "end": 93,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_51": {
+        "id": "aee55f41d64d_51",
+        "__typename": "Paragraph",
+        "name": "5bf5",
+        "text": "Now if you run this code you will get an IllegalStateException. To catch the exception, we can use the classic try-catch bloc. We have two options, we can catch the exception once we call the await function or inside the async function itself. the code will be:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 192,
+            "end": 197,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 221,
+            "end": 226,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_52": {
+        "id": "aee55f41d64d_52",
+        "__typename": "Paragraph",
+        "name": "b05f",
+        "text": "fun main() {\n    runBlocking {\n        val deferred = GlobalScope.async {\n            println(\"Throwing an exception from deferred\")\n            throw IllegalStateException(\"This is an illegal State Exception!\")\n        }\n        try {\n            deferred.await()\n        } catch (e: java.lang.IllegalStateException) {\n            println(\"Exception caught: ${e.message}\")\n        }\n    }\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 29,
+            "end": 39,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 72,
+            "end": 86,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 220,
+            "end": 230,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 388,
+            "end": 390,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 17,
+            "end": 29,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 66,
+            "end": 72,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 86,
+            "end": 93,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 332,
+            "end": 339,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_53": {
+        "id": "aee55f41d64d_53",
+        "__typename": "Paragraph",
+        "name": "4984",
+        "text": "And now the exception is caught!",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_54": {
+        "id": "aee55f41d64d_54",
+        "__typename": "Paragraph",
+        "name": "699c",
+        "text": "Sample",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_55": {
+        "id": "aee55f41d64d_55",
+        "__typename": "Paragraph",
+        "name": "b7c8",
+        "text": "To summarize all the knowledge we gained, let’s implement a small Android application. This application will be very simple, we are going to download an image, apply a filter, and then show it in the UI. It’s a small application but it’s enough to use all concepts that we talked about in these two posts.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_56": {
+        "id": "aee55f41d64d_56",
+        "__typename": "Paragraph",
+        "name": "2df3",
+        "text": "I assume that you have a knowledge about Android development so I am not going just to explain the coroutines bloc of code.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_57": {
+        "id": "aee55f41d64d_57",
+        "__typename": "Paragraph",
+        "name": "5137",
+        "text": "To start, add the coroutines-core dependencies in your app/build.gradle file",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_58": {
+        "id": "aee55f41d64d_58",
+        "__typename": "Paragraph",
+        "name": "9871",
+        "text": "implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5'\nimplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2'",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 15,
+            "end": 69,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 84,
+            "end": 140,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_59": {
+        "id": "aee55f41d64d_59",
+        "__typename": "Paragraph",
+        "name": "ede2",
+        "text": "After adding the dependencies, go to your activity_main file and place this code:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 42,
+            "end": 55,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_60": {
+        "id": "aee55f41d64d_60",
+        "__typename": "Paragraph",
+        "name": "78fb",
+        "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n    xmlns:tools=\"http://schemas.android.com/tools\"\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    tools:context=\".MainActivity\">\n\n    <ImageView\n        android:id=\"@+id/imageView\"\n        android:layout_width=\"300dp\"\n        android:layout_height=\"300dp\"\n        android:scaleType=\"centerCrop\"\n        android:visibility=\"gone\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\"\n        app:srcCompat=\"@mipmap/ic_launcher\" />\n\n    <ProgressBar\n        android:id=\"@+id/progressBar\"\n        style=\"?android:attr/progressBarStyle\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\" />\n</androidx.constraintlayout.widget.ConstraintLayout>",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 2,
+            "end": 36,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 40,
+            "end": 370,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 378,
+            "end": 826,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 835,
+            "end": 1231,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1236,
+            "end": 1285,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 0,
+            "end": 2,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 36,
+            "end": 39,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_61": {
+        "id": "aee55f41d64d_61",
+        "__typename": "Paragraph",
+        "name": "9bd6",
+        "text": "The UI will be as simple as possible. We just have an ImageView to show the filtered image and a ProgressBar to show while waiting fetching and processing the image.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_62": {
+        "id": "aee55f41d64d_62",
+        "__typename": "Paragraph",
+        "name": "5847",
+        "text": "Now in your MainActivity we are going to download the image, apply a filter and show the filtered image. All this stuff will be done by coroutines!",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 12,
+            "end": 24,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_63": {
+        "id": "aee55f41d64d_63",
+        "__typename": "Paragraph",
+        "name": "2e03",
+        "text": "I will first put the code than we will discuss it.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_64": {
+        "id": "aee55f41d64d_64",
+        "__typename": "Paragraph",
+        "name": "2f73",
+        "text": "class MainActivity : AppCompatActivity() {\n\n    private val IMAGE_URL = \"https://i.ibb.co/Ky9r7jk/440px-Lenna-test-image.png\"\n    private val coroutineScope = CoroutineScope(Dispatchers.Main)\n\n    override fun onCreate(savedInstanceState: Bundle?) {\n        super.onCreate(savedInstanceState)\n        setContentView(R.layout.activity_main)\n\n        coroutineScope.launch {\n            //We are in the UI thread!\n            val originalDeferredImage = coroutineScope.async(Dispatchers.IO) {\n                //We are in IO thread!\n                getOriginalImage(IMAGE_URL)\n            }\n\n            //We are in UI thread!\n            val originalBitmap = originalDeferredImage.await()\n\n            val filteredImageDeferred = coroutineScope.async(Dispatchers.Default) {\n                //We are in Default thread!\n                Filter.apply(originalBitmap)\n            }\n\n            //We are in UI thread!\n            val filteredImage = filteredImageDeferred.await()\n            loadImage(filteredImage)\n        }\n    }\n\n    private fun getOriginalImage(imageURL: String): Bitmap {\n        URL(imageURL).openStream().use {\n            return BitmapFactory.decodeStream(it)\n        }\n    }\n\n    private fun loadImage(bitmap: Bitmap) {\n        progressBar.visibility = View.GONE\n        imageView.setImageBitmap(bitmap)\n        imageView.visibility = View.VISIBLE\n    }\n\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 0,
+            "end": 6,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 48,
+            "end": 70,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 72,
+            "end": 157,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 186,
+            "end": 190,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 197,
+            "end": 210,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 258,
+            "end": 263,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 349,
+            "end": 363,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 371,
+            "end": 385,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 424,
+            "end": 428,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 452,
+            "end": 466,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 485,
+            "end": 487,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 489,
+            "end": 507,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 563,
+            "end": 572,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 586,
+            "end": 601,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 636,
+            "end": 640,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 700,
+            "end": 704,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 728,
+            "end": 742,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 761,
+            "end": 768,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 770,
+            "end": 788,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 873,
+            "end": 888,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 923,
+            "end": 927,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1018,
+            "end": 1024,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1031,
+            "end": 1043,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1127,
+            "end": 1148,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1175,
+            "end": 1177,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1187,
+            "end": 1193,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1200,
+            "end": 1212,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 159,
+            "end": 173,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 325,
+            "end": 338,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 364,
+            "end": 371,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 385,
+            "end": 424,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 467,
+            "end": 472,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 507,
+            "end": 546,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 601,
+            "end": 636,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 743,
+            "end": 748,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 788,
+            "end": 832,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 888,
+            "end": 923,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1123,
+            "end": 1127,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1260,
+            "end": 1271,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1278,
+            "end": 1291,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1342,
+            "end": 1353,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 1360,
+            "end": 1372,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_65": {
+        "id": "aee55f41d64d_65",
+        "__typename": "Paragraph",
+        "name": "927d",
+        "text": "Let’s start with the two function in the bottom of the class. the getOriginalImage will download an image from an url and return a Bitmap. the loadImage will hide the progressBar, make the ImageView visible and show the bitmap.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 66,
+            "end": 82,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 143,
+            "end": 152,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_66": {
+        "id": "aee55f41d64d_66",
+        "__typename": "Paragraph",
+        "name": "3af1",
+        "text": "Now as you can see in the top of the class we declared a coroutineScope that will be running in Main Dispatcher which is UiTread in Android.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 57,
+            "end": 71,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 96,
+            "end": 100,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_67": {
+        "id": "aee55f41d64d_67",
+        "__typename": "Paragraph",
+        "name": "e96c",
+        "text": "We launch this coroutine with launch function (we are not waiting a return value from this coroutine). Inside this coroutine, we create a Deferred that will download the image. Now, downloading an image is a read/write operation. For that kind of work, we do it in the Dispatchers.IO and that’s why in the async function we switched the dispatcher to the IO dispatcher so all the bloc inside the async(Dispatcher.IO){//block} will be executed in an IO dispatcher.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 30,
+            "end": 36,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 138,
+            "end": 146,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 269,
+            "end": 283,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 306,
+            "end": 311,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 396,
+            "end": 425,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_68": {
+        "id": "aee55f41d64d_68",
+        "__typename": "Paragraph",
+        "name": "80a7",
+        "text": "So now we need the downloaded image to apply the filter, but it’s running in different thread so we must wait for it until it’s downloaded. here comes the utility of await function, it will suspend the current thread until we get the value needed. So when here:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 166,
+            "end": 171,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_69": {
+        "id": "aee55f41d64d_69",
+        "__typename": "Paragraph",
+        "name": "5d2c",
+        "text": "val originalBitmap = originalDeferredImage.await()",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 0,
+            "end": 4,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_70": {
+        "id": "aee55f41d64d_70",
+        "__typename": "Paragraph",
+        "name": "17a4",
+        "text": "The main thread will be suspended until the deferred that will return the downloaded image return this image.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 44,
+            "end": 52,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_71": {
+        "id": "aee55f41d64d_71",
+        "__typename": "Paragraph",
+        "name": "7c56",
+        "text": "After we get the image, we now can apply the filter. Applying a filter is an intensive CPU work. For that kind of work, we must choose the Default dispatcher! That’s why in our code we declared a deferred(because we are waiting a result from the coroutine) that will be run in Dispatchers.Default",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 139,
+            "end": 146,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 196,
+            "end": 204,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 277,
+            "end": 296,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_72": {
+        "id": "aee55f41d64d_72",
+        "__typename": "Paragraph",
+        "name": "67f6",
+        "text": "val filteredImageDeferred = coroutineScope.async(Dispatchers.Default) {\n    Filter.apply(originalBitmap)\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 0,
+            "end": 4,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 28,
+            "end": 42,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 61,
+            "end": 68,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 70,
+            "end": 72,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 105,
+            "end": 106,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 43,
+            "end": 48,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 72,
+            "end": 76,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_73": {
+        "id": "aee55f41d64d_73",
+        "__typename": "Paragraph",
+        "name": "37b5",
+        "text": "calling await on this deferred will also suspend the current thread until we get the result, in our case the filtered image and now we can set the ImageView with the filtered image! Remember that we are in a coroutine that’s running on the Main dispatcher, so we don’t need to switch the context!",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 8,
+            "end": 13,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 22,
+            "end": 30,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 240,
+            "end": 244,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_74": {
+        "id": "aee55f41d64d_74",
+        "__typename": "Paragraph",
+        "name": "22df",
+        "text": "In android, there is another Dispatcher in ViewModels to do your work. All you need to do is viewModelScope.launch{//your beautiful code}",
+        "type": "BQ",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 93,
+            "end": 137,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_75": {
+        "id": "aee55f41d64d_75",
+        "__typename": "Paragraph",
+        "name": "de1d",
+        "text": "Conclusion",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_76": {
+        "id": "aee55f41d64d_76",
+        "__typename": "Paragraph",
+        "name": "afd4",
+        "text": "By reading these two parts of coroutines-basics and implementing this sample, you are now must be able to develop a whole application using Coroutines :D",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:aee55f41d64d_77": {
+        "id": "aee55f41d64d_77",
+        "__typename": "Paragraph",
+        "name": "6133",
+        "text": "For some Frameworks that support coroutines like Room or Retrofit they return suspend functions, use these function in the main thread is safe so you don’t need to define a Dispatcher before calling these functions because they are main-safe.",
+        "type": "BQ",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 49,
+            "end": 53,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 57,
+            "end": 65,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 232,
+            "end": 241,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "ImageMetadata:1*CcTehqIhXGAYsWn7E_guJQ.jpeg": {
+        "id": "1*CcTehqIhXGAYsWn7E_guJQ.jpeg",
+        "__typename": "ImageMetadata",
+        "originalHeight": 359,
+        "originalWidth": 638,
+        "focusPercentX": null,
+        "focusPercentY": null,
+        "alt": null
+      },
+      "Tag:coroutine": {
+        "id": "coroutine",
+        "__typename": "Tag",
+        "displayTitle": "Coroutine",
+        "normalizedTagSlug": ""
+      },
+      "Tag:kotlin-coroutines": {
+        "id": "kotlin-coroutines",
+        "__typename": "Tag",
+        "displayTitle": "Kotlin Coroutines",
+        "normalizedTagSlug": ""
+      },
+      "Tag:coroutinescope": {
+        "id": "coroutinescope",
+        "__typename": "Tag",
+        "displayTitle": "Coroutinescope",
+        "normalizedTagSlug": ""
+      },
+      "Tag:android": {
+        "id": "android",
+        "__typename": "Tag",
+        "displayTitle": "Android",
+        "normalizedTagSlug": ""
+      },
+      "ImageMetadata:1*u7cGQyNzMYcvqxTi9uGr9A.jpeg": {
+        "id": "1*u7cGQyNzMYcvqxTi9uGr9A.jpeg",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:f5af2b715248": {
+        "id": "f5af2b715248",
+        "__typename": "Collection",
+        "name": "The Startup",
+        "domain": null,
+        "slug": "swlh"
+      },
+      "User:347473b9fec6": {
+        "id": "347473b9fec6",
+        "__typename": "User",
+        "name": "Yingqi Chen",
+        "username": "chanwingkeihaha",
+        "bio": "Web Developer | Ruby | Rails | SQL | Sinatra | React | Redux | HTML&CSS | JavaScript| MERN LinkedIn:https://www.linkedin.com/in/yingqi-chen/",
+        "imageId": "1*LSGRSNjuIV-m6zfCEgIu9A.jpeg",
+        "mediumMemberAt": 0,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "chanwingkeihaha.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:58f320a4f11e": {
+        "id": "58f320a4f11e",
+        "__typename": "Post",
+        "title": "DoubleRenderError in Ruby on Rails",
+        "mediumUrl": "https://medium.com/swlh/doublerendererror-in-ruby-on-rails-58f320a4f11e",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*u7cGQyNzMYcvqxTi9uGr9A.jpeg"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1590603790313,
+        "readingTime": 2.7698113207547173,
+        "statusForCollection": "APPROVED",
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": {
+          "__ref": "Collection:f5af2b715248"
+        },
+        "creator": {
+          "__ref": "User:347473b9fec6"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*j5OlY8Fig886LXu3pQzuDw.png": {
+        "id": "1*j5OlY8Fig886LXu3pQzuDw.png",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:29038077e4c6": {
+        "id": "29038077e4c6",
+        "__typename": "Collection",
+        "name": "CodeX",
+        "domain": null,
+        "slug": "codex"
+      },
+      "User:f1f245eac180": {
+        "id": "f1f245eac180",
+        "__typename": "User",
+        "name": "Susan A. Fitzell",
+        "username": "susanfitzell",
+        "bio": "Susan Gingras Fitzell, M.Ed., CSP is an expert learning strategist bridging the organizational learning gap. Learn more: www.learnfasterfailless.com",
+        "imageId": "2*br84tXM1CbZMyfAPgFbbtQ.jpeg",
+        "mediumMemberAt": 1545465600000,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "susanfitzell.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:59296dba0b16": {
+        "id": "59296dba0b16",
+        "__typename": "Post",
+        "title": "Amp Your Writing Energy With Speech-to-Text Apps",
+        "mediumUrl": "https://medium.com/codex/amp-your-writing-energy-with-speech-to-text-apps-59296dba0b16",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*j5OlY8Fig886LXu3pQzuDw.png"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1615296174188,
+        "readingTime": 5.39937106918239,
+        "statusForCollection": "APPROVED",
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": {
+          "__ref": "Collection:29038077e4c6"
+        },
+        "creator": {
+          "__ref": "User:f1f245eac180"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:0*D0YLXQT7q9lUmIju": {
+        "id": "0*D0YLXQT7q9lUmIju",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "User:7c861a54d524": {
+        "id": "7c861a54d524",
+        "__typename": "User",
+        "name": "Dion Lao",
+        "username": "dionlao",
+        "bio": "Software Engineer / Productivity Enthusiast",
+        "imageId": "1*v0EWlh0Bj6uII-eL4pUWRA.jpeg",
+        "mediumMemberAt": 0,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:59458b94fb6e": {
+        "id": "59458b94fb6e",
+        "__typename": "Post",
+        "title": "The Art of Reading Code (as a newbie)",
+        "mediumUrl": "https://medium.com/codex/the-art-of-reading-code-as-a-newbie-59458b94fb6e",
+        "previewImage": {
+          "__ref": "ImageMetadata:0*D0YLXQT7q9lUmIju"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1616649675313,
+        "readingTime": 9.30503144654088,
+        "statusForCollection": "APPROVED",
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": {
+          "__ref": "Collection:29038077e4c6"
+        },
+        "creator": {
+          "__ref": "User:7c861a54d524"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:": {
+        "id": "",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "User:cc50f3829f3b": {
+        "id": "cc50f3829f3b",
+        "__typename": "User",
+        "name": "Iqbal Honnur",
+        "username": "iqbalhonnur",
+        "bio": "Jack of all Trades. Engineer.",
+        "imageId": "0*twszKYJSTRnvOTw2",
+        "mediumMemberAt": 0,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:59572916afcd": {
+        "id": "59572916afcd",
+        "__typename": "Post",
+        "title": "Configuring and connecting to remote MongoDB from Python.",
+        "mediumUrl": "https://medium.com/@iqbalhonnur/configuring-and-connecting-to-remote-mongodb-from-python-59572916afcd",
+        "previewImage": {
+          "__ref": "ImageMetadata:"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1595866204228,
+        "readingTime": 2.3509433962264152,
+        "statusForCollection": null,
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": null,
+        "creator": {
+          "__ref": "User:cc50f3829f3b"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*0aW2tr-yeYXnOhVd4l2Rvw.png": {
+        "id": "1*0aW2tr-yeYXnOhVd4l2Rvw.png",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:86fb29d7cc6a": {
+        "id": "86fb29d7cc6a",
+        "__typename": "Collection",
+        "name": "Flutter Community",
+        "domain": null,
+        "slug": "flutter-community"
+      },
+      "User:c9317893e3f4": {
+        "id": "c9317893e3f4",
+        "__typename": "User",
+        "name": "Karol Lisiewicz",
+        "username": "klisiewicz",
+        "bio": "Android and Flutter Developer",
+        "imageId": "1*7Hir1I9_RC8AfFw--sR9QA.png",
+        "mediumMemberAt": 0,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:5975852a8632": {
+        "id": "5975852a8632",
+        "__typename": "Post",
+        "title": "Sealed Classes in Flutter (Part 1)",
+        "mediumUrl": "https://medium.com/flutter-community/sealed-classes-in-flutter-part-1-5975852a8632",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*0aW2tr-yeYXnOhVd4l2Rvw.png"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1591610461250,
+        "readingTime": 7.900943396226415,
+        "statusForCollection": "APPROVED",
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": {
+          "__ref": "Collection:86fb29d7cc6a"
+        },
+        "creator": {
+          "__ref": "User:c9317893e3f4"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "User:eb3356e408e8": {
+        "id": "eb3356e408e8",
+        "__typename": "User",
+        "name": "Matt Klein",
+        "username": "mattklein123",
+        "bio": "Engineer @lyft (https://mattklein123.dev/)",
+        "imageId": "1*_wDsWRhPw613x1CX95Dh2w.png",
+        "mediumMemberAt": 0,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:597738dd21c5": {
+        "id": "597738dd21c5",
+        "__typename": "Post",
+        "title": "Crash early and crash often for more reliable software",
+        "mediumUrl": "https://medium.com/@mattklein123/crash-early-and-crash-often-for-more-reliable-software-597738dd21c5",
+        "previewImage": {
+          "__ref": "ImageMetadata:"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1554672485255,
+        "readingTime": 6.090566037735849,
+        "statusForCollection": null,
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": null,
+        "creator": {
+          "__ref": "User:eb3356e408e8"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:0*ylIr5OwjuL2laRki.gif": {
+        "id": "0*ylIr5OwjuL2laRki.gif",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "User:2fd8ec005561": {
+        "id": "2fd8ec005561",
+        "__typename": "User",
+        "name": "Daniel Kreider",
+        "username": "dkreider",
+        "bio": "https://danielk.tech",
+        "imageId": "1*8zcxqbPUIQ9MOecN1fKlVg.jpeg",
+        "mediumMemberAt": 0,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "dkreider.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:588407940b34": {
+        "id": "588407940b34",
+        "__typename": "Post",
+        "title": "The step-by-step guide to creating and using a Generic Repository👀",
+        "mediumUrl": "https://dkreider.medium.com/the-step-by-step-guide-to-creating-and-using-a-generic-repository-588407940b34",
+        "previewImage": {
+          "__ref": "ImageMetadata:0*ylIr5OwjuL2laRki.gif"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1615836788521,
+        "readingTime": 3.0179245283018865,
+        "statusForCollection": null,
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": null,
+        "creator": {
+          "__ref": "User:2fd8ec005561"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*B86W-BLVZZ-zBAV4ybpj-w.jpeg": {
+        "id": "1*B86W-BLVZZ-zBAV4ybpj-w.jpeg",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "User:e55dacbcc2df": {
+        "id": "e55dacbcc2df",
+        "__typename": "User",
+        "name": "Matjaž Marolt",
+        "username": "maroltma",
+        "bio": "Android, iOS app developer",
+        "imageId": "0*_n4vqV2gAJhNkz-j.jpg",
+        "mediumMemberAt": 0,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "maroltma.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:58eedf65e9b1": {
+        "id": "58eedf65e9b1",
+        "__typename": "Post",
+        "title": "My Google Play Publisher account with 5+ million downloads terminated by a bot after 7 years",
+        "mediumUrl": "https://maroltma.medium.com/my-google-play-publisher-account-with-5-million-downloads-terminated-by-a-bot-58eedf65e9b1",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*B86W-BLVZZ-zBAV4ybpj-w.jpeg"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1613902794519,
+        "readingTime": 7.978301886792453,
+        "statusForCollection": null,
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": null,
+        "creator": {
+          "__ref": "User:e55dacbcc2df"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "Post:4087ce15ff28": {
+        "id": "4087ce15ff28",
+        "__typename": "Post",
+        "canonicalUrl": "",
+        "collection": null,
+        "content({\"postMeteringOptions\":{\"referrer\":\"\",\"sk\":null}})": {
+          "__typename": "PostContent",
+          "isLockedPreviewOnly": false,
+          "validatedShareKey": "",
+          "isCacheableContent": false,
+          "bodyModel": {
+            "__typename": "RichText",
+            "paragraphs": [
+              {
+                "__ref": "Paragraph:aee55f41d64d_0"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_1"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_2"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_3"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_4"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_5"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_6"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_7"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_8"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_9"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_10"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_11"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_12"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_13"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_14"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_15"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_16"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_17"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_18"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_19"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_20"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_21"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_22"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_23"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_24"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_25"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_26"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_27"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_28"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_29"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_30"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_31"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_32"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_33"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_34"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_35"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_36"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_37"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_38"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_39"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_40"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_41"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_42"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_43"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_44"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_45"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_46"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_47"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_48"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_49"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_50"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_51"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_52"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_53"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_54"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_55"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_56"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_57"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_58"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_59"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_60"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_61"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_62"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_63"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_64"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_65"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_66"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_67"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_68"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_69"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_70"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_71"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_72"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_73"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_74"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_75"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_76"
+              },
+              {
+                "__ref": "Paragraph:aee55f41d64d_77"
+              }
+            ],
+            "sections": [
+              {
+                "__typename": "Section",
+                "name": "0aaf",
+                "startIndex": 0,
+                "textLayout": null,
+                "imageLayout": null,
+                "backgroundImage": null,
+                "videoLayout": null,
+                "backgroundVideo": null
+              }
+            ]
+          }
+        },
+        "creator": {
+          "__ref": "User:c3a4b9ddd1b1"
+        },
+        "customStyleSheet": null,
+        "firstPublishedAt": 1587012645342,
+        "isLocked": false,
+        "isPublished": true,
+        "isShortform": false,
+        "layerCake": 4,
+        "primaryTopic": null,
+        "title": "Kotlin Coroutines Basics part-2",
+        "readCreatorPostsCount": 0,
+        "mediumUrl": "https://medium.com/@hakim.fakher/kotlin-coroutines-basics-part-2-4087ce15ff28",
+        "isLimitedState": false,
+        "visibility": "PUBLIC",
+        "license": "ALL_RIGHTS_RESERVED",
+        "allowResponses": true,
+        "newsletterId": "",
+        "sequence": null,
+        "tags": [
+          {
+            "__ref": "Tag:coroutine"
+          },
+          {
+            "__ref": "Tag:kotlin-coroutines"
+          },
+          {
+            "__ref": "Tag:coroutinescope"
+          },
+          {
+            "__ref": "Tag:android"
+          }
+        ],
+        "topics": [
+          {
+            "__typename": "Topic",
+            "topicId": "decb52b64abf",
+            "name": "Programming"
+          }
+        ],
+        "viewerClapCount": 0,
+        "showSubscribeToProfilePromo": false,
+        "showSubscribeToCollectionNewsletterV3Promo": false,
+        "inResponseToPostResult": null,
+        "isNewsletter": false,
+        "socialTitle": "",
+        "socialDek": "",
+        "noIndex": null,
+        "curationStatus": null,
+        "metaDescription": "",
+        "latestPublishedAt": 1587012645342,
+        "readingTime": 7.996226415094339,
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "subtitle": "Async, withContext, exception handling"
+        },
+        "previewImage": {
+          "__ref": "ImageMetadata:1*CcTehqIhXGAYsWn7E_guJQ.jpeg"
+        },
+        "creatorPartnerProgramEnrollmentStatus": "PERMISSION_DENIED",
+        "clapCount": 0,
+        "lockedSource": "LOCKED_POST_SOURCE_NONE",
+        "isSuspended": false,
+        "pendingCollection": null,
+        "statusForCollection": null,
+        "pinnedAt": 0,
+        "pinnedByCreatorAt": 0,
+        "curationEligibleAt": 1587012644454,
+        "responseDistribution": "NOT_DISTRIBUTED",
+        "shareKey": null,
+        "internalLinks({\"paging\":{\"limit\":8}})": {
+          "__typename": "InternalLinksConnection",
+          "items": [
+            {
+              "__ref": "Post:58f320a4f11e"
+            },
+            {
+              "__ref": "Post:59296dba0b16"
+            },
+            {
+              "__ref": "Post:59458b94fb6e"
+            },
+            {
+              "__ref": "Post:59572916afcd"
+            },
+            {
+              "__ref": "Post:5975852a8632"
+            },
+            {
+              "__ref": "Post:597738dd21c5"
+            },
+            {
+              "__ref": "Post:588407940b34"
+            },
+            {
+              "__ref": "Post:58eedf65e9b1"
+            }
+          ]
+        },
+        "collaborators": [],
+        "translationSourcePost": null,
+        "inResponseToMediaResource": null,
+        "audioVersionUrl": "",
+        "seoTitle": "Coroutines async, withContext, exception handling",
+        "updatedAt": 1588971653886,
+        "shortformType": "SHORTFORM_TYPE_LINK",
+        "structuredData": "",
+        "seoDescription": "This post explain the async and withContext functions in coroutines. And it presents the different ways to handle exceptions for coroutines",
+        "postResponses": {
+          "__typename": "PostResponses",
+          "count": 0
+        },
+        "latestPublishedVersion": "aee55f41d64d",
+        "isPublishToEmail": false,
+        "readingList": "READING_LIST_NONE",
+        "voterCount": 0,
+        "recommenders": []
+      }
+    }
+  },
+  "document": {}
+}

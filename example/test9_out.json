@@ -1,0 +1,2498 @@
+{
+  "window": {
+    "__BUILD_ID__": "main-20210326-225631-0a48783f52",
+    "__GRAPHQL_URI__": "https://medium.com/_/graphql",
+    "__PRELOADED_STATE__": {
+      "auroraPage": {
+        "isAuroraPageEnabled": false
+      },
+      "bookReader": {
+        "assets": {},
+        "reader": {
+          "currentAsset": null,
+          "settingsPanelIsOpen": false,
+          "settings": {
+            "fontFamily": "CHARTER",
+            "fontScale": "M",
+            "publisherStyling": true,
+            "textAlignment": "START",
+            "theme": "White",
+            "lineSpacing": 0,
+            "wordSpacing": 0,
+            "letterSpacing": 0
+          },
+          "internalNavCounter": 0
+        }
+      },
+      "cache": {
+        "experimentGroupSet": true,
+        "reason": "",
+        "group": "enabled",
+        "tags": [
+          "group-edgeCachePosts",
+          "post-902764f27404",
+          "user-20f1e3177d1b",
+          "collection-2541ed02c698"
+        ],
+        "serverVariantState": "b514cf8c0cd326a9cdb2ef8687df63c645231df82a27302351b0fbb2cd713ff8"
+      },
+      "client": {
+        "hydrated": false,
+        "isUs": false,
+        "isNativeMedium": false,
+        "isSafariMobile": false,
+        "isSafari": false,
+        "routingEntity": {
+          "type": "DEFAULT",
+          "explicit": false
+        },
+        "supportsWebp": false
+      },
+      "config": {
+        "nodeEnv": "production",
+        "version": "main-20210326-225631-0a48783f52",
+        "isTaggedVersion": false,
+        "target": "production",
+        "productName": "Medium",
+        "publicUrl": "https://cdn-client.medium.com/lite",
+        "authDomain": "medium.com",
+        "authGoogleClientId": "216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com",
+        "favicon": "production",
+        "glyphUrl": "https://glyph.medium.com",
+        "branchKey": "key_live_ofxXr2qTrrU9NqURK8ZwEhknBxiI6KBm",
+        "lightStep": {
+          "name": "lite-web",
+          "host": "lightstep.medium.systems",
+          "token": "ce5be895bef60919541332990ac9fef2",
+          "appVersion": "main-20210326-225631-0a48783f52"
+        },
+        "algolia": {
+          "appId": "MQ57UUUQZ2",
+          "apiKeySearch": "394474ced050e3911ae2249ecc774921",
+          "indexPrefix": "medium_",
+          "host": "-dsn.algolia.net"
+        },
+        "recaptchaKey": "6Lfc37IUAAAAAKGGtC6rLS13R1Hrw_BqADfS1LRk",
+        "recaptcha3Key": "6Lf8R9wUAAAAABMI_85Wb8melS7Zj6ziuf99Yot5",
+        "datadog": {
+          "clientToken": "pub853ea8d17ad6821d9f8f11861d23dfed",
+          "context": {
+            "deployment": {
+              "target": "production",
+              "tag": "main-20210326-225631-0a48783f52",
+              "commit": "0a48783f52ecacac18d343c005edcfbb9efe696b"
+            }
+          },
+          "datacenter": "us"
+        },
+        "isAmp": false,
+        "googleAnalyticsCode": "UA-24232453-2",
+        "signInWallCustomDomainCollectionIds": [
+          "3a8144eabfe3",
+          "336d898217ee",
+          "61061eb0c96b",
+          "138adf9c44c",
+          "819cc2aaeee0"
+        ],
+        "mediumOwnedAndOperatedCollectionIds": [
+          "544c7006046e",
+          "bcc38c8f6edf",
+          "444d13b52878",
+          "8d6b8a439e32",
+          "92d2092dc598",
+          "1285ba81cada",
+          "cb8577c9149e",
+          "8ccfed20cbb2",
+          "ae2a65f35510",
+          "3f6ecf56618",
+          "7b6769f2748b",
+          "fc8964313712",
+          "ef8e90590e66",
+          "191186aaafa0",
+          "d944778ce714",
+          "bdc4052bbdba",
+          "88d9857e584e",
+          "9dc80918cc93",
+          "8a9336e5bb4",
+          "cef6983b292",
+          "54c98c43354d",
+          "193b68bd4fba",
+          "b7e45b22fec3",
+          "55760f21cdc5"
+        ],
+        "tierOneDomains": [
+          "medium.com",
+          "thebolditalic.com",
+          "arcdigital.media",
+          "towardsdatascience.com",
+          "uxdesign.cc",
+          "codeburst.io",
+          "psiloveyou.xyz",
+          "writingcooperative.com",
+          "entrepreneurshandbook.co",
+          "prototypr.io",
+          "betterhumans.coach.me",
+          "theascent.pub"
+        ],
+        "topicsToFollow": [
+          "d61cf867d93f",
+          "8a146bc21b28",
+          "1eca0103fff3",
+          "4d562ee63426",
+          "aef1078a3ef5",
+          "e15e46793f8d",
+          "6158eb913466",
+          "55f1c20aba7a",
+          "3d18b94f6858",
+          "4861fee224fd",
+          "63c6f1f93ee",
+          "1d98b3a9a871",
+          "decb52b64abf",
+          "ae5d4995e225",
+          "830cded25262"
+        ],
+        "defaultImages": {
+          "avatar": {
+            "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+            "height": 150,
+            "width": 150
+          },
+          "orgLogo": {
+            "imageId": "1*OMF3fSqH8t4xBJ9-6oZDZw.png",
+            "height": 106,
+            "width": 545
+          },
+          "postLogo": {
+            "imageId": "1*kFrc4tBFM_tCis-2Ic87WA.png",
+            "height": 810,
+            "width": 1440
+          },
+          "postPreviewImage": {
+            "imageId": "1*hn4v1tCaJy7cWMyb0bpNpQ.png",
+            "height": 386,
+            "width": 579
+          }
+        },
+        "collectionStructuredData": {
+          "8d6b8a439e32": {
+            "name": "Elemental",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-images-1.medium.com/max/980/1*9ygdqoKprhwuTVKUM0DLPA@2x.png",
+                "width": 980,
+                "height": 159
+              }
+            }
+          },
+          "3f6ecf56618": {
+            "name": "Forge",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-images-1.medium.com/max/596/1*uULpIlImcO5TDuBZ6lm7Lg@2x.png",
+                "width": 596,
+                "height": 183
+              }
+            }
+          },
+          "ae2a65f35510": {
+            "name": "GEN",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/264/1*RdVZMdvfV3YiZTw6mX7yWA.png",
+                "width": 264,
+                "height": 140
+              }
+            }
+          },
+          "88d9857e584e": {
+            "name": "LEVEL",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/540/1*JqYMhNX6KNNb2UlqGqO2WQ.png",
+                "width": 540,
+                "height": 108
+              }
+            }
+          },
+          "7b6769f2748b": {
+            "name": "Marker",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-images-1.medium.com/max/383/1*haCUs0wF6TgOOvfoY-jEoQ@2x.png",
+                "width": 383,
+                "height": 92
+              }
+            }
+          },
+          "444d13b52878": {
+            "name": "OneZero",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/540/1*cw32fIqCbRWzwJaoQw6BUg.png",
+                "width": 540,
+                "height": 123
+              }
+            }
+          },
+          "8ccfed20cbb2": {
+            "name": "Zora",
+            "data": {
+              "@type": "NewsMediaOrganization",
+              "ethicsPolicy": "https://help.medium.com/hc/en-us/articles/360043290473",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://miro.medium.com/max/540/1*tZUQqRcCCZDXjjiZ4bDvgQ.png",
+                "width": 540,
+                "height": 106
+              }
+            }
+          }
+        },
+        "embeddedPostIds": {
+          "coronavirus": "cd3010f9d81f"
+        },
+        "sharedCdcMessaging": {
+          "COVID_APPLICABLE_TAG_SLUGS": [],
+          "COVID_APPLICABLE_TOPIC_NAMES": [],
+          "COVID_APPLICABLE_TOPIC_NAMES_FOR_TOPIC_PAGE": [],
+          "COVID_MESSAGES": {
+            "tierA": {
+              "text": "For more information on the novel coronavirus and Covid-19, visit cdc.gov.",
+              "markups": [
+                {
+                  "start": 66,
+                  "end": 73,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            },
+            "tierB": {
+              "text": "Anyone can publish on Medium per our Policies, but we don’t fact-check every story. For more info about the coronavirus, see cdc.gov.",
+              "markups": [
+                {
+                  "start": 37,
+                  "end": 45,
+                  "href": "https://help.medium.com/hc/en-us/categories/201931128-Policies-Safety"
+                },
+                {
+                  "start": 125,
+                  "end": 132,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            },
+            "paywall": {
+              "text": "This article has been made free for everyone, thanks to Medium Members. For more information on the novel coronavirus and Covid-19, visit cdc.gov.",
+              "markups": [
+                {
+                  "start": 56,
+                  "end": 70,
+                  "href": "https://medium.com/membership"
+                },
+                {
+                  "start": 138,
+                  "end": 145,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            },
+            "unbound": {
+              "text": "This article is free for everyone, thanks to Medium Members. For more information on the novel coronavirus and Covid-19, visit cdc.gov.",
+              "markups": [
+                {
+                  "start": 45,
+                  "end": 59,
+                  "href": "https://medium.com/membership"
+                },
+                {
+                  "start": 127,
+                  "end": 134,
+                  "href": "https://www.cdc.gov/coronavirus/2019-nCoV"
+                }
+              ]
+            }
+          },
+          "COVID_BANNER_POST_ID_OVERRIDE_WHITELIST": [
+            "3b31a67bff4a"
+          ]
+        },
+        "sharedVoteMessaging": {
+          "TAGS": [
+            "politics",
+            "election-2020",
+            "government",
+            "us-politics",
+            "election",
+            "2020-presidential-race",
+            "trump",
+            "donald-trump",
+            "democrats",
+            "republicans",
+            "congress",
+            "republican-party",
+            "democratic-party",
+            "biden",
+            "joe-biden",
+            "maga"
+          ],
+          "TOPICS": [
+            "politics",
+            "election"
+          ],
+          "MESSAGE": {
+            "text": "Find out more about the U.S. election results here.",
+            "markups": [
+              {
+                "start": 46,
+                "end": 50,
+                "href": "https://cookpolitical.com/2020-national-popular-vote-tracker"
+              }
+            ]
+          },
+          "EXCLUDE_POSTS": [
+            "397ef29e3ca5"
+          ]
+        },
+        "embedPostRules": [],
+        "recircOptions": {
+          "v1": {
+            "limit": 3
+          },
+          "v2": {
+            "limit": 8
+          }
+        },
+        "braintreeClientKey": "production_zjkj96jm_m56f8fqpf7ngnrd4",
+        "paypalClientId": "AXj1G4fotC2GE8KzWX9mSxCH1wmPE3nJglf4Z2ig_amnhvlMVX87otaq58niAg9iuLktVNF_1WCMnN7v",
+        "stripePublishableKey": "pk_live_7FReX44VnNIInZwrIIx6ghjl"
+      },
+      "debug": {
+        "requestId": "7389ce96-25e6-42ff-8021-718c8a9197f2",
+        "branchDeployConfig": null,
+        "hybridDevServices": [],
+        "originalSpanCarrier": {
+          "ot-tracer-spanid": "33138b316e9f0e51",
+          "ot-tracer-traceid": "2a727f2d8cd3053a",
+          "ot-tracer-sampled": "true"
+        }
+      },
+      "multiVote": {
+        "clapsPerPost": {}
+      },
+      "navigation": {
+        "branch": {
+          "show": null,
+          "hasRendered": null,
+          "blockedByCTA": false
+        },
+        "hideGoogleOneTap": false,
+        "hasRenderedGoogleOneTap": null,
+        "hasRenderedAlternateUserBanner": null,
+        "currentLocation": "https://medium.com/open-graphql/create-a-multiuser-graphql-crud-l-app-in-5-minutes-with-the-amplify-datastore-902764f27404",
+        "host": "medium.com",
+        "hostname": "medium.com",
+        "referrer": "",
+        "hasSetReferrer": false,
+        "susiModal": {
+          "step": null,
+          "operation": "register"
+        },
+        "postRead": false,
+        "queryString": "",
+        "currentHash": ""
+      },
+      "session": {
+        "user": {
+          "id": "lo_72b3d1ce56e1"
+        },
+        "xsrf": "",
+        "isSpoofed": false
+      },
+      "tracing": {}
+    },
+    "__APOLLO_STATE__": {
+      "ROOT_QUERY": {
+        "__typename": "Query",
+        "viewer": null,
+        "meterPost({\"postId\":\"902764f27404\",\"postMeteringOptions\":{\"referrer\":\"\",\"sk\":null}})": {
+          "__ref": "MeteringInfo:{}"
+        },
+        "postResult({\"id\":\"902764f27404\"})": {
+          "__ref": "Post:902764f27404"
+        }
+      },
+      "MeteringInfo:{}": {
+        "__typename": "MeteringInfo",
+        "postIds": [],
+        "maxUnlockCount": 3,
+        "unlocksRemaining": 0
+      },
+      "ImageMetadata:": {
+        "id": "",
+        "__typename": "ImageMetadata"
+      },
+      "ImageMetadata:1*1BeUKVGJCAm93O8P0gUTjw.png": {
+        "id": "1*1BeUKVGJCAm93O8P0gUTjw.png",
+        "__typename": "ImageMetadata",
+        "originalWidth": 1200,
+        "originalHeight": 144
+      },
+      "User:695782484bda": {
+        "id": "695782484bda",
+        "__typename": "User",
+        "name": "Nader Dabit",
+        "username": "dabit3",
+        "bio": "Developer Advocate at AWS Mobile — Specializing in Teaching and Building React & React Native — http://reactnative.training https://aws.amazon.com/mobile",
+        "imageId": "1*lcQ4wcaeYxV64gemIuJ0lQ.jpeg",
+        "mediumMemberAt": 0,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null,
+        "atsQualifiedAt": 1612205679320
+      },
+      "ImageMetadata:1*fqAjaZY2q6H84e_Q-1ot8g.png": {
+        "id": "1*fqAjaZY2q6H84e_Q-1ot8g.png",
+        "__typename": "ImageMetadata"
+      },
+      "Collection:2541ed02c698": {
+        "id": "2541ed02c698",
+        "__typename": "Collection",
+        "domain": null,
+        "googleAnalyticsId": null,
+        "slug": "open-graphql",
+        "colorBehavior": "ACCENT_COLOR_AND_FILL_BACKGROUND",
+        "isAuroraVisible": false,
+        "favicon": {
+          "__ref": "ImageMetadata:"
+        },
+        "name": "Open GraphQL",
+        "colorPalette": {
+          "__typename": "ColorPalette",
+          "highlightSpectrum": {
+            "__typename": "ColorSpectrum",
+            "backgroundColor": "#FFFFFFFF",
+            "colorPoints": [
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFF4F2F2",
+                "point": 0
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFF2F0F0",
+                "point": 0.1
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFF0EEEE",
+                "point": 0.2
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFEEECEC",
+                "point": 0.3
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFECEBEA",
+                "point": 0.4
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFEAE9E8",
+                "point": 0.5
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFE8E7E7",
+                "point": 0.6
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFE6E5E5",
+                "point": 0.7
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFE4E3E3",
+                "point": 0.8
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFE2E1E1",
+                "point": 0.9
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFE0DFDF",
+                "point": 1
+              }
+            ]
+          },
+          "defaultBackgroundSpectrum": {
+            "__typename": "ColorSpectrum",
+            "backgroundColor": "#FFFFFFFF",
+            "colorPoints": [
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF848585",
+                "point": 0
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF7B7B7B",
+                "point": 0.1
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF717272",
+                "point": 0.2
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF686868",
+                "point": 0.3
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF5E5E5E",
+                "point": 0.4
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF545454",
+                "point": 0.5
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF494A4A",
+                "point": 0.6
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF3F3F3F",
+                "point": 0.7
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF333333",
+                "point": 0.8
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF272727",
+                "point": 0.9
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF1A1A1A",
+                "point": 1
+              }
+            ]
+          },
+          "tintBackgroundSpectrum": {
+            "__typename": "ColorSpectrum",
+            "backgroundColor": "#FFFAFAFA",
+            "colorPoints": [
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFFAFAFA",
+                "point": 0
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFE8E8E8",
+                "point": 0.1
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFD5D5D5",
+                "point": 0.2
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFC1C2C2",
+                "point": 0.3
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FFADAEAE",
+                "point": 0.4
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF999A9A",
+                "point": 0.5
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF848585",
+                "point": 0.6
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF6D6F6F",
+                "point": 0.7
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF565757",
+                "point": 0.8
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF3D3E3E",
+                "point": 0.9
+              },
+              {
+                "__typename": "ColorPoint",
+                "color": "#FF202122",
+                "point": 1
+              }
+            ]
+          }
+        },
+        "customStyleSheet": null,
+        "tagline": "Anything & Everything GraphQL",
+        "isAuroraEligible": false,
+        "viewerIsEditor": false,
+        "logo": {
+          "__ref": "ImageMetadata:1*1BeUKVGJCAm93O8P0gUTjw.png"
+        },
+        "navItems": [
+          {
+            "__typename": "NavItem",
+            "title": "Apollo",
+            "url": "https://medium.com/open-graphql/tagged/apollo",
+            "type": "TAG_NAV_ITEM"
+          },
+          {
+            "__typename": "NavItem",
+            "title": "Prisma",
+            "url": "https://medium.com/open-graphql/tagged/prisma",
+            "type": "TAG_NAV_ITEM"
+          },
+          {
+            "__typename": "NavItem",
+            "title": "AWS AppSync",
+            "url": "https://medium.com/open-graphql/tagged/aws-appsync",
+            "type": "TAG_NAV_ITEM"
+          },
+          {
+            "__typename": "NavItem",
+            "title": "Hasura",
+            "url": "https://medium.com/open-graphql/tagged/hasura",
+            "type": "TAG_NAV_ITEM"
+          }
+        ],
+        "creator": {
+          "__ref": "User:695782484bda"
+        },
+        "subscriberCount": 4167,
+        "avatar": {
+          "__ref": "ImageMetadata:1*fqAjaZY2q6H84e_Q-1ot8g.png"
+        },
+        "newsletterV3": null,
+        "viewerIsFollowing": false,
+        "viewerIsSubscribedToLetters": false,
+        "canToggleEmail": false,
+        "isUserSubscribedToCollectionEmails": false,
+        "viewerIsMuting": false,
+        "viewerCanEditOwnPosts": false,
+        "viewerCanEditPosts": false,
+        "description": "Anything & Everything GraphQL",
+        "ampEnabled": false,
+        "twitterUsername": "opengql",
+        "facebookPageId": null,
+        "customDomainState": null,
+        "ptsQualifiedAt": 0
+      },
+      "User:20f1e3177d1b": {
+        "id": "20f1e3177d1b",
+        "__typename": "User",
+        "isFollowing": null,
+        "viewerIsUser": false,
+        "isSuspended": false,
+        "name": "Ed Lima",
+        "hasCompletedProfile": false,
+        "bio": "Product Manager AWS AppSync — Working hard. Having fun. Making history. With @AWSAmplify (Opinions. My. Own.)",
+        "imageId": "0*emtFePUn59Cvl6xB.jpg",
+        "username": "ednergizer",
+        "customStyleSheet": null,
+        "customDomainState": null,
+        "isAuroraVisible": true,
+        "createdAt": 0,
+        "mediumMemberAt": 0,
+        "lastPostCreatedAt": 0,
+        "socialStats": {
+          "__typename": "SocialStats",
+          "followerCount": 269,
+          "followingCount": 25
+        },
+        "hasSubdomain": false,
+        "isAllowEdsEnabled": false,
+        "isBlocking": null,
+        "isMuting": null,
+        "allowNotes": true,
+        "newsletterV3": null,
+        "twitterScreenName": "ednergizer",
+        "atsQualifiedAt": 1612205340379
+      },
+      "Paragraph:e8118e1fa1ae_0": {
+        "id": "e8118e1fa1ae_0",
+        "__typename": "Paragraph",
+        "name": "71fb",
+        "text": "Create a Multiuser GraphQL CRUD(L) App in 5 minutes with the Amplify DataStore",
+        "type": "H3",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_1": {
+        "id": "e8118e1fa1ae_1",
+        "__typename": "Paragraph",
+        "name": "0516",
+        "text": "A little longer than a year ago I wrote about my experience with the Amplify CLI, just released back then, and how it enabled me to create a multiuser GraphQL CRUD(L) application in minutes. It’s probably a good time to revisit the article and update/refactor my old app to use the recently released Amplify DataStore, taking advantage of its simpler programming model and convenient built-in capabilities as well as getting on with the times and adding React Hooks to the mix.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 46,
+            "end": 80,
+            "type": "A",
+            "href": "https://medium.com/open-graphql/create-a-multiuser-graphql-crud-l-app-in-10-minutes-with-the-new-aws-amplify-cli-and-in-a-few-73aef3d49545",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_2": {
+        "id": "e8118e1fa1ae_2",
+        "__typename": "Paragraph",
+        "name": "462d",
+        "text": "But what’s the Amplify DataStore and how it can make my life as a developer easier? In case you have some spare time, here’s a great video explaining why the DataStore was created and what problems it’s trying to solve:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_3": {
+        "id": "e8118e1fa1ae_3",
+        "__typename": "Paragraph",
+        "name": "022a",
+        "text": "",
+        "type": "IFRAME",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": {
+          "__typename": "Iframe",
+          "mediaResource": {
+            "__ref": "MediaResource:3f67f10017911a7016dcfdccf1eb7748"
+          }
+        },
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_4": {
+        "id": "e8118e1fa1ae_4",
+        "__typename": "Paragraph",
+        "name": "2b65",
+        "text": "In case you don’t have spare time now, save the video for later and keep reading.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_5": {
+        "id": "e8118e1fa1ae_5",
+        "__typename": "Paragraph",
+        "name": "3935",
+        "text": "The mission if you chose to accept it: create a secure multiuser CRUDL app with even less lines of code and in less time than the app I created last year. How can the Amplify DataStore help?",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_6": {
+        "id": "e8118e1fa1ae_6",
+        "__typename": "Paragraph",
+        "name": "3038",
+        "text": "The Amplify DataStore is a queryable, on-device data store for web, browsers, IoT, and mobile developers developing JavaScript, iOS, Android, and React Native apps. It provides a simple programming model for leveraging shared and distributed data without writing additional code for offline and online scenarios, which makes working with distributed, cross-user data just as simple as working with local-only data — allowing developers to create rich app experiences.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_7": {
+        "id": "e8118e1fa1ae_7",
+        "__typename": "Paragraph",
+        "name": "7c34",
+        "text": "You can chose to use the DataStore standalone in your application without an AWS account however, when connected to the cloud, it enables very interesting capabilities. With a simple command you can add powerful built-in scalable real-time, offline, versioning, conflict detection and conflict resolution features powered by AWS AppSync and Amazon DynamoDB while still using a simple local-first programming model. Best of all, you don’t even need to know GraphQL to use it. GraphQL is in place behind the scenes acting as a protocol to interact with a flexible and highly available API automatically synchronizing the data to the cloud.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_8": {
+        "id": "e8118e1fa1ae_8",
+        "__typename": "Paragraph",
+        "name": "932d",
+        "text": "Same as before, in this article we have sample code that will allow you to get started quickly with a very simple CRUD application behind a managed GraphQL API backend. This is just a sample that should be used for learning purposes, it’s not one size fits all and you’ll need to adapt and change for your specific use cases.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_9": {
+        "id": "e8118e1fa1ae_9",
+        "__typename": "Paragraph",
+        "name": "919f",
+        "text": "In order to get started we’ll need to install and configure the Amplify CLI, and you can do so by following a quick tutorial here. After the CLI is configured with proper AWS credentials, execute the following commands:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 125,
+            "end": 129,
+            "type": "A",
+            "href": "https://aws-amplify.github.io/docs/#node-link",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_10": {
+        "id": "e8118e1fa1ae_10",
+        "__typename": "Paragraph",
+        "name": "9c44",
+        "text": "$ npx create-react-app notesapp --use-npm\n$ cd notesapp\n$ npm install aws-amplify aws-amplify-react @aws-amplify/core @aws-amplify/datastore bootstrap\n$ npx amplify-app\n$ amplify init ",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 100,
+            "end": 141,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_11": {
+        "id": "e8118e1fa1ae_11",
+        "__typename": "Paragraph",
+        "name": "7af1",
+        "text": "Since this is a multiuser application, we need to manage users from a central location or Identity Provider and authenticate them accordingly. Let’s update the API we just created to use a Cognito User Pool that will authenticate and authorize users as required:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_12": {
+        "id": "e8118e1fa1ae_12",
+        "__typename": "Paragraph",
+        "name": "48b7",
+        "text": "$ amplify update api",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_13": {
+        "id": "e8118e1fa1ae_13",
+        "__typename": "Paragraph",
+        "name": "b30a",
+        "text": "? Please select from one of the below mentioned services: GraphQL\n? Choose the default authorization type for the API \nAmazon Cognito User Pool\nUsing service: Cognito, provided by: awscloudformation",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 58,
+            "end": 65,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 119,
+            "end": 143,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_14": {
+        "id": "e8118e1fa1ae_14",
+        "__typename": "Paragraph",
+        "name": "fb4d",
+        "text": "The current configured provider is Amazon Cognito.",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_15": {
+        "id": "e8118e1fa1ae_15",
+        "__typename": "Paragraph",
+        "name": "0689",
+        "text": "Do you want to use the default authentication and security configuration? Default configuration\nWarning: you will not be able to edit these selections.\nHow do you want users to be able to sign in? Username\nDo you want to configure advanced settings? No, I am done.",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 74,
+            "end": 95,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 197,
+            "end": 205,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 250,
+            "end": 264,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_16": {
+        "id": "e8118e1fa1ae_16",
+        "__typename": "Paragraph",
+        "name": "bddc",
+        "text": "Successfully added auth resource",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_17": {
+        "id": "e8118e1fa1ae_17",
+        "__typename": "Paragraph",
+        "name": "1618",
+        "text": "? Do you want to configure advanced settings for the GraphQL API \nNo, I am done.",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 66,
+            "end": 80,
+            "type": "EM",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_18": {
+        "id": "e8118e1fa1ae_18",
+        "__typename": "Paragraph",
+        "name": "b95e",
+        "text": "Edit the schema file notesapp/amplify/backend/api/amplifyDatasource/schema.graphql and replace its contents with:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 21,
+            "end": 82,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_19": {
+        "id": "e8118e1fa1ae_19",
+        "__typename": "Paragraph",
+        "name": "9194",
+        "text": "type Note @model @auth(rules: [{ allow: owner }]) {\n  id: ID!\n  note: String\n  owner: String\n}",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_20": {
+        "id": "e8118e1fa1ae_20",
+        "__typename": "Paragraph",
+        "name": "e005",
+        "text": "As before we’re taking advantage of the GraphQL Transform useful directives such as @model that will automatically create a DynamoDB table and all the CRUDL logic behind the scenes to store and interact with the data behind an AWS AppSync GraphQL API. We leverage the @auth directive and its ability to easily create simple or complex authorization rules. Notice we added an additional field owner that was not present in the old app, this is needed to authorize real-time subscriptions in the DataStore.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 84,
+            "end": 90,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 268,
+            "end": 273,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 392,
+            "end": 397,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 40,
+            "end": 57,
+            "type": "A",
+            "href": "https://aws-amplify.github.io/docs/cli-toolchain/graphql",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 84,
+            "end": 90,
+            "type": "A",
+            "href": "https://aws-amplify.github.io/docs/cli-toolchain/graphql#model",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 268,
+            "end": 273,
+            "type": "A",
+            "href": "https://aws-amplify.github.io/docs/cli-toolchain/graphql#auth",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_21": {
+        "id": "e8118e1fa1ae_21",
+        "__typename": "Paragraph",
+        "name": "7ee4",
+        "text": "Now use the following commands to generate the data model then commit the changes and start the deployment of the managed serverless cloud resources (GraphQL API and noSQL table):",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_22": {
+        "id": "e8118e1fa1ae_22",
+        "__typename": "Paragraph",
+        "name": "c6a9",
+        "text": "$ npm run amplify-modelgen\n$ npm run amplify-push",
+        "type": "PRE",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_23": {
+        "id": "e8118e1fa1ae_23",
+        "__typename": "Paragraph",
+        "name": "e16e",
+        "text": "The backend services and resources will be configured, linked and deployed following all the AWS best practices:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_24": {
+        "id": "e8118e1fa1ae_24",
+        "__typename": "Paragraph",
+        "name": "f392",
+        "text": "Services deployed and configured with a “push”",
+        "type": "IMG",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": {
+          "__ref": "ImageMetadata:1*0vBzLU_NBjEQSyMcWN381w.png"
+        },
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_25": {
+        "id": "e8118e1fa1ae_25",
+        "__typename": "Paragraph",
+        "name": "43bc",
+        "text": "Finally, while CloudFormation is doing its job to create and configure the scalable cloud resources, here’s the last piece of the puzzle. Edit the file src/App.js in the local project and overwrite the content with the following code:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 152,
+            "end": 162,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_26": {
+        "id": "e8118e1fa1ae_26",
+        "__typename": "Paragraph",
+        "name": "895f",
+        "text": "The Code",
+        "type": "IFRAME",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": {
+          "__typename": "Iframe",
+          "mediaResource": {
+            "__ref": "MediaResource:99853f1b04bd8fa9200290b96af2e1e4"
+          }
+        },
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_27": {
+        "id": "e8118e1fa1ae_27",
+        "__typename": "Paragraph",
+        "name": "8523",
+        "text": "Time to test! Execute amplify serve or npm start to test it locally then sign up a couple of users with a valid e-mail (you can use the same e-mail for different users) and mobile number, add some new notes and confirm one user has no access to the notes of the other user:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 22,
+            "end": 35,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 39,
+            "end": 48,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_28": {
+        "id": "e8118e1fa1ae_28",
+        "__typename": "Paragraph",
+        "name": "1091",
+        "text": "DataStore in action",
+        "type": "IMG",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": {
+          "__ref": "ImageMetadata:1*Sl9iejb9dax3roR62l-qaA.png"
+        },
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_29": {
+        "id": "e8118e1fa1ae_29",
+        "__typename": "Paragraph",
+        "name": "34b9",
+        "text": "Users can create, read, update, delete, list and search their own notes in the app interacting with the data directly from the local DataStore. Everything is automatically synchronized with the DynamoDB table in the background. Offline and real-time features are built-in, users can interact with their data when disconnected or automatically get new notes or updates to current notes when connected to different devices.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_30": {
+        "id": "e8118e1fa1ae_30",
+        "__typename": "Paragraph",
+        "name": "16c4",
+        "text": "Locally the data is stored on IndexedDB and can be accessed using the developer tools in the browser. In case on native mobile apps, the data would be stored in SQLite on device. Following a local first programming model, the DataStore is always interacting with local data providing fast performance and a great user experience:",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_31": {
+        "id": "e8118e1fa1ae_31",
+        "__typename": "Paragraph",
+        "name": "5b38",
+        "text": "DataStore locally on IndexedDB",
+        "type": "IMG",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": {
+          "__ref": "ImageMetadata:1*YQbVoUWobAdDA7fldYd5qA.png"
+        },
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_32": {
+        "id": "e8118e1fa1ae_32",
+        "__typename": "Paragraph",
+        "name": "b153",
+        "text": "It’s not all apples to apples though. The original article used an Elasticsearch cluster to search data, with the DataStore we are using its local querying capabilities. On the other hand, the old app didn’t have any offline or real-time capabilities powered by WebSockets and now this is all integrated in the new app. How about lines of code? The new app has 158 lines of code whereas the old app in its final state had 185 lines of code. Mission accomplished!",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_33": {
+        "id": "e8118e1fa1ae_33",
+        "__typename": "Paragraph",
+        "name": "2204",
+        "text": "The code is available on GitHub. From the repo you can deploy the whole app with 1-click to the Amplify Console (or directly from here), give it a try.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 25,
+            "end": 31,
+            "type": "A",
+            "href": "https://github.com/awsed/AppSyncGraphQLNotes",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 130,
+            "end": 134,
+            "type": "A",
+            "href": "https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/awsed/AppSyncGraphQLNotes",
+            "anchorType": "LINK",
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 25,
+            "end": 31,
+            "type": "STRONG",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_34": {
+        "id": "e8118e1fa1ae_34",
+        "__typename": "Paragraph",
+        "name": "da59",
+        "text": "DataStore from Amplify Console",
+        "type": "IMG",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": {
+          "__ref": "ImageMetadata:1*jhPN_D1UzBBnG-FuoxeHIA.gif"
+        },
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_35": {
+        "id": "e8118e1fa1ae_35",
+        "__typename": "Paragraph",
+        "name": "7a67",
+        "text": "The Amplify DataStore allows developers to focus on their business logic, which is what will truly differentiate their applications. You can interact with local and cloud data interchangeably with simple intuitive commands such as DataStore.save() , DataStore.query(), DataStore.delete(), DataStore.clear() and receive real-time updates with DataStore.observe(). All the complexities of distributed data conflict resolution, real-time, offline and versioning capabilities are handled for you.",
+        "type": "P",
+        "href": null,
+        "layout": null,
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": null,
+        "mixtapeMetadata": null,
+        "markups": [
+          {
+            "__typename": "Markup",
+            "start": 231,
+            "end": 247,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 250,
+            "end": 267,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 269,
+            "end": 287,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 289,
+            "end": 306,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          },
+          {
+            "__typename": "Markup",
+            "start": 342,
+            "end": 361,
+            "type": "CODE",
+            "href": null,
+            "anchorType": null,
+            "userId": null,
+            "linkMetadata": null
+          }
+        ],
+        "dropCapImage": null
+      },
+      "Paragraph:e8118e1fa1ae_36": {
+        "id": "e8118e1fa1ae_36",
+        "__typename": "Paragraph",
+        "name": "ee22",
+        "text": "",
+        "type": "IFRAME",
+        "href": null,
+        "layout": "INSET_CENTER",
+        "metadata": null,
+        "hasDropCap": null,
+        "iframe": {
+          "__typename": "Iframe",
+          "mediaResource": {
+            "__ref": "MediaResource:381f4f701d2d6208660e2e1208482673"
+          }
+        },
+        "mixtapeMetadata": null,
+        "markups": [],
+        "dropCapImage": null
+      },
+      "MediaResource:3f67f10017911a7016dcfdccf1eb7748": {
+        "id": "3f67f10017911a7016dcfdccf1eb7748",
+        "__typename": "MediaResource",
+        "iframeSrc": "https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/ednergizer/status/1203399849153978369&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F984417753283964928%252Fmz7pfPbi_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07",
+        "iframeHeight": 281,
+        "iframeWidth": 500,
+        "title": "Ed Lima on Twitter"
+      },
+      "ImageMetadata:1*0vBzLU_NBjEQSyMcWN381w.png": {
+        "id": "1*0vBzLU_NBjEQSyMcWN381w.png",
+        "__typename": "ImageMetadata",
+        "originalHeight": 380,
+        "originalWidth": 728,
+        "focusPercentX": null,
+        "focusPercentY": null,
+        "alt": null
+      },
+      "MediaResource:99853f1b04bd8fa9200290b96af2e1e4": {
+        "id": "99853f1b04bd8fa9200290b96af2e1e4",
+        "__typename": "MediaResource",
+        "iframeSrc": "",
+        "iframeHeight": 0,
+        "iframeWidth": 0,
+        "title": "Multiuser CRUD Notes GraphQL App with DataStore"
+      },
+      "ImageMetadata:1*Sl9iejb9dax3roR62l-qaA.png": {
+        "id": "1*Sl9iejb9dax3roR62l-qaA.png",
+        "__typename": "ImageMetadata",
+        "originalHeight": 772,
+        "originalWidth": 1037,
+        "focusPercentX": null,
+        "focusPercentY": null,
+        "alt": null
+      },
+      "ImageMetadata:1*YQbVoUWobAdDA7fldYd5qA.png": {
+        "id": "1*YQbVoUWobAdDA7fldYd5qA.png",
+        "__typename": "ImageMetadata",
+        "originalHeight": 594,
+        "originalWidth": 999,
+        "focusPercentX": null,
+        "focusPercentY": null,
+        "alt": null
+      },
+      "ImageMetadata:1*jhPN_D1UzBBnG-FuoxeHIA.gif": {
+        "id": "1*jhPN_D1UzBBnG-FuoxeHIA.gif",
+        "__typename": "ImageMetadata",
+        "originalHeight": 490,
+        "originalWidth": 640,
+        "focusPercentX": null,
+        "focusPercentY": null,
+        "alt": null
+      },
+      "MediaResource:381f4f701d2d6208660e2e1208482673": {
+        "id": "381f4f701d2d6208660e2e1208482673",
+        "__typename": "MediaResource",
+        "iframeSrc": "https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/dabit3/status/1204842243443441666&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fmedia%252FELh1ojEU0AATSPl.jpg%253Alarge%26key%3Da19fcc184b9711e1b4764040d3dc5c07",
+        "iframeHeight": 281,
+        "iframeWidth": 500,
+        "title": "Nader Dabit on Twitter"
+      },
+      "Tag:graphql": {
+        "id": "graphql",
+        "__typename": "Tag",
+        "displayTitle": "GraphQL",
+        "normalizedTagSlug": ""
+      },
+      "Tag:react": {
+        "id": "react",
+        "__typename": "Tag",
+        "displayTitle": "React",
+        "normalizedTagSlug": ""
+      },
+      "Tag:aws-appsync": {
+        "id": "aws-appsync",
+        "__typename": "Tag",
+        "displayTitle": "Aws Appsync",
+        "normalizedTagSlug": ""
+      },
+      "Tag:amplify-datastore": {
+        "id": "amplify-datastore",
+        "__typename": "Tag",
+        "displayTitle": "Amplify Datastore",
+        "normalizedTagSlug": ""
+      },
+      "Tag:dynamodb": {
+        "id": "dynamodb",
+        "__typename": "Tag",
+        "displayTitle": "Dynamodb",
+        "normalizedTagSlug": ""
+      },
+      "ImageMetadata:1*TuUxdOxr9HT-CqDgz5rtGA.jpeg": {
+        "id": "1*TuUxdOxr9HT-CqDgz5rtGA.jpeg",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Post:daeb387b6985": {
+        "id": "daeb387b6985",
+        "__typename": "Post",
+        "title": "Modular imports with AWS Amplify",
+        "mediumUrl": "https://medium.com/@dabit3/modular-imports-with-aws-amplify-daeb387b6985",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*TuUxdOxr9HT-CqDgz5rtGA.jpeg"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1533285061001,
+        "readingTime": 2.228301886792453,
+        "statusForCollection": null,
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": null,
+        "creator": {
+          "__ref": "User:695782484bda"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:0*goprda8-nuOX0ezK": {
+        "id": "0*goprda8-nuOX0ezK",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:336d898217ee": {
+        "id": "336d898217ee",
+        "__typename": "Collection",
+        "name": "freeCodeCamp.org",
+        "domain": null,
+        "slug": "free-code-camp"
+      },
+      "User:f394abf2a149": {
+        "id": "f394abf2a149",
+        "__typename": "User",
+        "name": "Hemakshi Sachdev",
+        "username": "hemakshis",
+        "bio": "Competitive Programmer • Full-Stack Web Developer • Self-Improvement Enthusiast",
+        "imageId": "1*YCjIIvyQziXwH7SoM_Z-uw.jpeg",
+        "mediumMemberAt": 0,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:db4ebc6ecb84": {
+        "id": "db4ebc6ecb84",
+        "__typename": "Post",
+        "title": "How I started my open source journey after being demotivated for two years",
+        "mediumUrl": "https://medium.com/free-code-camp/how-i-started-my-open-source-journey-after-being-demotivated-for-two-years-db4ebc6ecb84",
+        "previewImage": {
+          "__ref": "ImageMetadata:0*goprda8-nuOX0ezK"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1556755253829,
+        "readingTime": 6.085220125786164,
+        "statusForCollection": "APPROVED",
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": {
+          "__ref": "Collection:336d898217ee"
+        },
+        "creator": {
+          "__ref": "User:f394abf2a149"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:0*jFF4BSKotuSfOR_-": {
+        "id": "0*jFF4BSKotuSfOR_-",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:c30d0a126dfc": {
+        "id": "c30d0a126dfc",
+        "__typename": "Collection",
+        "name": "Byte Limes",
+        "domain": null,
+        "slug": "bytelimes"
+      },
+      "User:64948e51ac13": {
+        "id": "64948e51ac13",
+        "__typename": "User",
+        "name": "Nivrith Gomatam",
+        "username": "nivrith",
+        "bio": "Software Engineer living a polymath lifestyle in Adelaide, Australia",
+        "imageId": "1*UhgEagFKW8LbS6PXDP7yCg.jpeg",
+        "mediumMemberAt": 1562378175000,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "nivrith.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:dabab05d6403": {
+        "id": "dabab05d6403",
+        "__typename": "Post",
+        "title": "Reducing Reducers [NGRX]: How to extend third party reducers",
+        "mediumUrl": "https://medium.com/bytelimes/reducing-reducers-ngrx-how-to-extend-third-party-reducers-dabab05d6403",
+        "previewImage": {
+          "__ref": "ImageMetadata:0*jFF4BSKotuSfOR_-"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1603179352277,
+        "readingTime": 1.7531446540880502,
+        "statusForCollection": "APPROVED",
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": {
+          "__ref": "Collection:c30d0a126dfc"
+        },
+        "creator": {
+          "__ref": "User:64948e51ac13"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*LFDVHeIMss3nK0BERln71g.png": {
+        "id": "1*LFDVHeIMss3nK0BERln71g.png",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "User:8fd0fd092d55": {
+        "id": "8fd0fd092d55",
+        "__typename": "User",
+        "name": "Safder Areepattamannil",
+        "username": "colorcoder",
+        "bio": "Posts, tutorials, snippets and all the antics I’m up to. www.colorcoder.dev",
+        "imageId": "1*MMs7la6bVwDNhUnOnmGeaQ.png",
+        "mediumMemberAt": 0,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "colorcoder.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:dacf09e6c049": {
+        "id": "dacf09e6c049",
+        "__typename": "Post",
+        "title": "What is the forEach method in Javascript and How to Use It?",
+        "mediumUrl": "https://colorcoder.medium.com/what-is-the-foreach-method-in-javascript-and-how-to-use-it-dacf09e6c049",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*LFDVHeIMss3nK0BERln71g.png"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1613069346418,
+        "readingTime": 3.839937106918239,
+        "statusForCollection": null,
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": null,
+        "creator": {
+          "__ref": "User:8fd0fd092d55"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*PSkrcdDAp8gaNGRI9Gy0Kw.png": {
+        "id": "1*PSkrcdDAp8gaNGRI9Gy0Kw.png",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "User:5f6a7901f212": {
+        "id": "5f6a7901f212",
+        "__typename": "User",
+        "name": "Avleen Kaur",
+        "username": "avleen2898",
+        "bio": "",
+        "imageId": "0*d05Ebq3OYFrTkrl-",
+        "mediumMemberAt": 1613614638000,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:db4287374c1f": {
+        "id": "db4287374c1f",
+        "__typename": "Post",
+        "title": "The Very Basics: What is JavaScript? Introduction to Values, Types and Operators",
+        "mediumUrl": "https://medium.com/@avleen2898/the-very-basics-what-is-javascript-introduction-to-values-types-and-operators-db4287374c1f",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*PSkrcdDAp8gaNGRI9Gy0Kw.png"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1592062034642,
+        "readingTime": 6.4188679245283025,
+        "statusForCollection": null,
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": null,
+        "creator": {
+          "__ref": "User:5f6a7901f212"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*3ZIwMO_BWXwbXq5XuhvzkQ.png": {
+        "id": "1*3ZIwMO_BWXwbXq5XuhvzkQ.png",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:9641994bbaf4": {
+        "id": "9641994bbaf4",
+        "__typename": "Collection",
+        "name": "Weekly Webtips",
+        "domain": null,
+        "slug": "weekly-webtips"
+      },
+      "User:55b5daddb0f1": {
+        "id": "55b5daddb0f1",
+        "__typename": "User",
+        "name": "Yash Garudkar",
+        "username": "yashgarudkar",
+        "bio": "Computer Engineer and Tech Enthusiast",
+        "imageId": "1*a7SfPYWgOc4k7sEY5WdETA.jpeg",
+        "mediumMemberAt": 0,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "yashgarudkar.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:db43572d8a6": {
+        "id": "db43572d8a6",
+        "__typename": "Post",
+        "title": "DENO: Building a Weather API with Deno",
+        "mediumUrl": "https://medium.com/weekly-webtips/deno-building-a-weather-api-with-deno-db43572d8a6",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*3ZIwMO_BWXwbXq5XuhvzkQ.png"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1590596193858,
+        "readingTime": 1.9886792452830189,
+        "statusForCollection": "APPROVED",
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": {
+          "__ref": "Collection:9641994bbaf4"
+        },
+        "creator": {
+          "__ref": "User:55b5daddb0f1"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*Zzi0Pt3peY_Bv2Ol8pQTgA.png": {
+        "id": "1*Zzi0Pt3peY_Bv2Ol8pQTgA.png",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:f5af2b715248": {
+        "id": "f5af2b715248",
+        "__typename": "Collection",
+        "name": "The Startup",
+        "domain": null,
+        "slug": "swlh"
+      },
+      "User:d15782e697ee": {
+        "id": "d15782e697ee",
+        "__typename": "User",
+        "name": "Dallas Bille",
+        "username": "dallasbille",
+        "bio": "Full Stack Web Developer, Adventurer, Soccer Player/Coach",
+        "imageId": "2*YQTW1H0_xJODkAUooS1Xog.jpeg",
+        "mediumMemberAt": 1550736000000,
+        "customDomainState": null,
+        "hasSubdomain": false,
+        "isFollowing": null
+      },
+      "Post:daa96477dd2c": {
+        "id": "daa96477dd2c",
+        "__typename": "Post",
+        "title": "Getting Started with React and MapBox GL JS",
+        "mediumUrl": "https://medium.com/swlh/getting-started-with-react-and-mapbox-gl-js-daa96477dd2c",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*Zzi0Pt3peY_Bv2Ol8pQTgA.png"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1565899318961,
+        "readingTime": 4.619811320754717,
+        "statusForCollection": "APPROVED",
+        "isLocked": true,
+        "visibility": "LOCKED",
+        "collection": {
+          "__ref": "Collection:f5af2b715248"
+        },
+        "creator": {
+          "__ref": "User:d15782e697ee"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "ImageMetadata:1*iaYan0f1NeQlzGnwzjXEvg.jpeg": {
+        "id": "1*iaYan0f1NeQlzGnwzjXEvg.jpeg",
+        "__typename": "ImageMetadata",
+        "focusPercentX": null,
+        "focusPercentY": null
+      },
+      "Collection:53c7c27702d5": {
+        "id": "53c7c27702d5",
+        "__typename": "Collection",
+        "name": "Airbnb Engineering & Data Science",
+        "domain": null,
+        "slug": "airbnb-engineering"
+      },
+      "User:bfa26a83c4b6": {
+        "id": "bfa26a83c4b6",
+        "__typename": "User",
+        "name": "Gabriel Peal",
+        "username": "gpeal",
+        "bio": "Android at Tonal. Lottie and MvRx. Formerly Airbnb and Android Auto at Google.",
+        "imageId": "1*-gkqq0poEnrA4DuUxEawCQ.jpeg",
+        "mediumMemberAt": 1537167600000,
+        "customDomainState": {
+          "__typename": "CustomDomainState",
+          "live": {
+            "__typename": "CustomDomain",
+            "domain": "gpeal.medium.com"
+          }
+        },
+        "hasSubdomain": true,
+        "isFollowing": null
+      },
+      "Post:dafd0b43838": {
+        "id": "dafd0b43838",
+        "__typename": "Post",
+        "title": "React Native at Airbnb: The Technology",
+        "mediumUrl": "https://medium.com/airbnb-engineering/react-native-at-airbnb-the-technology-dafd0b43838",
+        "previewImage": {
+          "__ref": "ImageMetadata:1*iaYan0f1NeQlzGnwzjXEvg.jpeg"
+        },
+        "isPublished": true,
+        "firstPublishedAt": 1529425782657,
+        "readingTime": 11.433962264150942,
+        "statusForCollection": "APPROVED",
+        "isLocked": false,
+        "visibility": "PUBLIC",
+        "collection": {
+          "__ref": "Collection:53c7c27702d5"
+        },
+        "creator": {
+          "__ref": "User:bfa26a83c4b6"
+        },
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "isFullContent": false
+        }
+      },
+      "Post:902764f27404": {
+        "id": "902764f27404",
+        "__typename": "Post",
+        "canonicalUrl": "",
+        "collection": {
+          "__ref": "Collection:2541ed02c698"
+        },
+        "content({\"postMeteringOptions\":{\"referrer\":\"\",\"sk\":null}})": {
+          "__typename": "PostContent",
+          "isLockedPreviewOnly": false,
+          "validatedShareKey": "",
+          "isCacheableContent": false,
+          "bodyModel": {
+            "__typename": "RichText",
+            "paragraphs": [
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_0"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_1"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_2"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_3"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_4"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_5"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_6"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_7"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_8"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_9"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_10"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_11"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_12"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_13"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_14"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_15"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_16"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_17"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_18"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_19"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_20"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_21"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_22"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_23"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_24"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_25"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_26"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_27"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_28"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_29"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_30"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_31"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_32"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_33"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_34"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_35"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_36"
+              }
+            ],
+            "sections": [
+              {
+                "__typename": "Section",
+                "name": "471d",
+                "startIndex": 0,
+                "textLayout": null,
+                "imageLayout": null,
+                "backgroundImage": null,
+                "videoLayout": null,
+                "backgroundVideo": null
+              }
+            ]
+          }
+        },
+        "creator": {
+          "__ref": "User:20f1e3177d1b"
+        },
+        "customStyleSheet": null,
+        "firstPublishedAt": 1579651715947,
+        "isLocked": false,
+        "isPublished": true,
+        "isShortform": false,
+        "layerCake": 0,
+        "primaryTopic": null,
+        "title": "Create a Multiuser GraphQL CRUD(L) App in 5 minutes with the Amplify DataStore",
+        "readCreatorPostsCount": 0,
+        "mediumUrl": "https://medium.com/open-graphql/create-a-multiuser-graphql-crud-l-app-in-5-minutes-with-the-amplify-datastore-902764f27404",
+        "isLimitedState": false,
+        "visibility": "PUBLIC",
+        "license": "ALL_RIGHTS_RESERVED",
+        "allowResponses": true,
+        "newsletterId": "",
+        "sequence": null,
+        "tags": [
+          {
+            "__ref": "Tag:graphql"
+          },
+          {
+            "__ref": "Tag:react"
+          },
+          {
+            "__ref": "Tag:aws-appsync"
+          },
+          {
+            "__ref": "Tag:amplify-datastore"
+          },
+          {
+            "__ref": "Tag:dynamodb"
+          }
+        ],
+        "topics": [
+          {
+            "__typename": "Topic",
+            "topicId": "63c6f1f93ee",
+            "name": "Javascript"
+          },
+          {
+            "__typename": "Topic",
+            "topicId": "decb52b64abf",
+            "name": "Programming"
+          }
+        ],
+        "viewerClapCount": 0,
+        "showSubscribeToProfilePromo": false,
+        "showSubscribeToCollectionNewsletterV3Promo": false,
+        "inResponseToPostResult": null,
+        "isNewsletter": false,
+        "socialTitle": "",
+        "socialDek": "",
+        "noIndex": null,
+        "curationStatus": null,
+        "metaDescription": "",
+        "latestPublishedAt": 1579654408774,
+        "readingTime": 5.224528301886792,
+        "previewContent": {
+          "__typename": "PreviewContent",
+          "subtitle": "Last year I wrote about my experience with the Amplify CLI, just released back then, and how it enabled me to create a React multiuser…"
+        },
+        "previewImage": {
+          "__ref": "ImageMetadata:1*0vBzLU_NBjEQSyMcWN381w.png"
+        },
+        "creatorPartnerProgramEnrollmentStatus": "PERMISSION_DENIED",
+        "clapCount": 239,
+        "lockedSource": "LOCKED_POST_SOURCE_NONE",
+        "isSuspended": false,
+        "pendingCollection": null,
+        "statusForCollection": "APPROVED",
+        "pinnedAt": 0,
+        "pinnedByCreatorAt": 0,
+        "curationEligibleAt": 0,
+        "responseDistribution": "NOT_DISTRIBUTED",
+        "shareKey": null,
+        "internalLinks({\"paging\":{\"limit\":8}})": {
+          "__typename": "InternalLinksConnection",
+          "items": [
+            {
+              "__ref": "Post:daeb387b6985"
+            },
+            {
+              "__ref": "Post:db4ebc6ecb84"
+            },
+            {
+              "__ref": "Post:dabab05d6403"
+            },
+            {
+              "__ref": "Post:dacf09e6c049"
+            },
+            {
+              "__ref": "Post:db4287374c1f"
+            },
+            {
+              "__ref": "Post:db43572d8a6"
+            },
+            {
+              "__ref": "Post:daa96477dd2c"
+            },
+            {
+              "__ref": "Post:dafd0b43838"
+            }
+          ]
+        },
+        "collaborators": [],
+        "translationSourcePost": null,
+        "inResponseToMediaResource": null,
+        "audioVersionUrl": "",
+        "seoTitle": "",
+        "updatedAt": 1579654409130,
+        "shortformType": "SHORTFORM_TYPE_LINK",
+        "structuredData": "",
+        "seoDescription": "",
+        "postResponses": {
+          "__typename": "PostResponses",
+          "count": 3
+        },
+        "latestPublishedVersion": "e8118e1fa1ae",
+        "isPublishToEmail": false,
+        "readingList": "READING_LIST_NONE",
+        "voterCount": 63,
+        "recommenders": [],
+        "content({})": {
+          "__typename": "PostContent",
+          "isLockedPreviewOnly": false,
+          "validatedShareKey": "",
+          "isCacheableContent": false,
+          "bodyModel": {
+            "__typename": "RichText",
+            "paragraphs": [
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_0"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_1"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_2"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_3"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_4"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_5"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_6"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_7"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_8"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_9"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_10"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_11"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_12"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_13"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_14"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_15"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_16"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_17"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_18"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_19"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_20"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_21"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_22"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_23"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_24"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_25"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_26"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_27"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_28"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_29"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_30"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_31"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_32"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_33"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_34"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_35"
+              },
+              {
+                "__ref": "Paragraph:e8118e1fa1ae_36"
+              }
+            ],
+            "sections": [
+              {
+                "__typename": "Section",
+                "name": "471d",
+                "startIndex": 0,
+                "textLayout": null,
+                "imageLayout": null,
+                "backgroundImage": null,
+                "videoLayout": null,
+                "backgroundVideo": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "document": {}
+}

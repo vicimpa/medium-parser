@@ -212,7 +212,7 @@ const tryGetMedia = async (id: string) => {
 }
 
 export class MediumParser {
-  static async parseFromURL(url: string): Promise<MediumData> {
+  static async parseFromURL(url: string, include = false): Promise<MediumData> {
     const request = await axios.get(url)
 
     if (request.status != 200)
@@ -255,10 +255,6 @@ export class MediumParser {
     const ap = data.window['__APOLLO_STATE__']
     const apollo = Object.values(ap)
 
-    const markdown = (await Promise.all(
-      apollo.filter(e => e['__typename'] == 'Paragraph').map(par)
-    )).join('\n\n')
-
     /**
         title: 'Post title',
         poster: 'https://....',
@@ -283,6 +279,21 @@ export class MediumParser {
     const authorAvatar = image(avatarId)
     const publishedTime = new Date(firstPublishedAt)
     const headline = previewContent
+    const { bodyModel = {} } = post['content({})'] || {}
+    const { sections = [] } = bodyModel || {}
+
+    const markdown = (await Promise.all(
+      apollo
+        .filter(e => e['__typename'] == 'Paragraph')
+        .map(par)
+    )).map((e, i) => {
+      if (i && sections.find(e => e.startIndex == i))
+        return `-----\n\n${e}`
+
+      return e
+    }).join('\n\n')
+
+    const added = include ? { data } : {}
 
     return {
       poster,
@@ -291,7 +302,8 @@ export class MediumParser {
       author,
       authorAvatar,
       publishedTime,
-      markdown
+      markdown,
+      ...added
     }
   }
 }
@@ -306,7 +318,10 @@ if (process.argv.indexOf('--test') != -1) {
     'https://medium.com/google-developer-experts/how-to-handle-navigation-in-jetpack-compose-a9ac47f7f975?_branch_match_id=879042917137435364',
     'https://medium.com/@lukasz.marczak314/how-to-search-with-android-jetpack-ea55307e49a9',
     'https://proandroiddev.com/creating-appbars-in-jetpack-compose-a8b5a5639930',
-    'https://medium.com/android-frontier/kelm-kotlin-ui-architecture-ea91fb745478'
+    'https://medium.com/android-frontier/kelm-kotlin-ui-architecture-ea91fb745478',
+    'https://medium.com/open-graphql/how-to-resolve-import-for-the-graphql-file-with-typescript-and-webpack-7a34c906e4c1',
+    'https://medium.com/open-graphql/create-a-multiuser-graphql-crud-l-app-in-5-minutes-with-the-amplify-datastore-902764f27404',
+    'https://medium.com/open-graphql/react-hooks-for-graphql-3fa8ebdd6c62'
   ]
 
   async function main(n = -1) {
@@ -315,17 +330,18 @@ if (process.argv.indexOf('--test') != -1) {
 
       console.log('Running ' + (i + 1))
 
-      const d = await MediumParser.parseFromURL(urls[i])
+      const d = await MediumParser.parseFromURL(urls[i], true)
         .catch(console.error)
 
       if (!d) continue
 
-      const { markdown, ...data } = d
+      const { markdown, data = null, ...info } = d as any
       const file = `test${i + 1}`
-      writeFileSync(`./example/${file}.json`, JSON.stringify(data, null, 2))
+      writeFileSync(`./example/${file}.json`, JSON.stringify(info, null, 2))
+      writeFileSync(`./example/${file}_out.json`, JSON.stringify(data, null, 2))
       writeFileSync(`./example/${file}.md`, `*Parsed from* [URL](${urls[i]})\n\n You can see [JSON](./${file}.json) output\n\n----\n\n${markdown}`)
     }
   }
 
-  main().catch(console.error)
+  main(9).catch(console.error)
 }
